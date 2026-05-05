@@ -1,0 +1,16 @@
+{
+  "_comment_for_humans": "Each entry below is one blog post. The 'slug' must match the filename inside the blogs/ folder (without the .html). To add a new post: copy blogs/_template.html to blogs/your-slug.html, edit the content, then add a new entry to the 'posts' array below. Newest posts appear first automatically (sorted by 'date'). See HOW_TO_ADD_A_BLOG.md for the full walkthrough.",
+
+  "posts": [
+    {
+      "slug": "monsoon-umbrella-care-guide",
+      "title": "Three habits that make your umbrella last three monsoons",
+      "excerpt": "Most umbrellas don't fail from rough use — they fail from how they're put away. Three small habits that turn a single-season buy into a five-year companion.",
+      "date": "2026-05-01",
+      "category": "Care & Maintenance",
+      "cover": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777969349/IMG_20210916_020759_xjfuyk.jpg",
+      "read_time": "4 min read",
+      "tags": ["umbrella care", "monsoon", "maintenance"]
+    }
+  ]
+}

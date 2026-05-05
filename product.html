@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product &middot; BSC Umbrellas</title>
+  <meta name="description" content="Product details and enquiry from BSC Umbrellas." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,30..100,0..1;1,9..144,300..900,30..100,0..1&family=DM+Sans:wght@300;400;500;600&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --paper:        #F2EADA;
+      --paper-light:  #F8F2E4;
+      --paper-deep:   #E8DFC9;
+      --ink:          #14110D;
+      --ink-soft:     #3B342A;
+      --ink-mute:     #6B6053;
+      --rule:         rgba(20,17,13,0.18);
+      --bsc-amber:    #F0A91C;
+      --bsc-amber-deep: #C8881A;
+      --tank-yellow:  #F4B41A;
+      --tv-red:       #D81B1B;
+      --rust:         #B0512F;
+      --whatsapp:     #25D366;
+      --serif:        'Fraunces', Georgia, serif;
+      --sans:         'DM Sans', system-ui, sans-serif;
+      --deva:         'Tiro Devanagari Hindi', serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      background: var(--paper);
+      color: var(--ink);
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: 100%;
+      max-width: 1340px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+    @media (max-width: 720px) {
+      .container { padding: 0 20px; }
+    }
+
+    /* Masthead — same as products.html, condensed for brevity */
+    .masthead-bar { background: var(--paper); border-bottom: 1px solid var(--rule); padding: 12px 0; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-mute); }
+    .masthead-bar .container { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    .masthead-bar .left, .masthead-bar .right { display: flex; align-items: center; gap: 16px; }
+    .masthead-bar .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--rust); display: inline-block; }
+    @media (max-width: 720px) { .masthead-bar { display: none; } }
+
+    .masthead { border-bottom: 1px solid rgba(240, 169, 28, 0.28); padding: 36px 0 32px; background: var(--ink); position: relative; }
+    .masthead::before { content: ''; position: absolute; left: 0; right: 0; bottom: 4px; height: 1px; background: rgba(240, 169, 28, 0.18); }
+    .masthead .container { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; }
+    .masthead-left, .masthead-right { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(242, 234, 218, 0.55); }
+    .masthead-right { text-align: right; }
+    .masthead-center { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+    .masthead-title { font-family: var(--serif); font-weight: 500; font-variation-settings: 'opsz' 144, 'SOFT' 50, 'WONK' 1; font-size: clamp(1.8rem, 3.4vw, 3rem); letter-spacing: -0.02em; line-height: 1; text-align: center; color: var(--bsc-amber); margin: 0; }
+    .masthead-title em { font-style: italic; color: var(--bsc-amber); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+    .masthead-deva { font-family: var(--deva); font-style: italic; font-size: 0.95rem; color: var(--bsc-amber-deep); letter-spacing: 0.02em; line-height: 1; }
+    @media (max-width: 720px) {
+      .masthead .container { grid-template-columns: 1fr; text-align: center; }
+      .masthead-left, .masthead-right { text-align: center; }
+    }
+
+    /* Sticky nav — matches index.html */
+    nav.primary { position: sticky; top: 0; z-index: 50; background: rgba(242,234,218,0.92); border-bottom: 1px solid var(--rule); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+    nav.primary .container { display: flex; justify-content: space-between; align-items: center; padding-top: 12px; padding-bottom: 12px; gap: 16px; flex-wrap: wrap; }
+    .nav-mark { font-family: var(--serif); font-weight: 600; font-size: 1.1rem; letter-spacing: -0.01em; display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+    .nav-mark::before { content: ''; width: 22px; height: 22px; background: var(--bsc-amber); clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); display: inline-block; flex-shrink: 0; }
+    .nav-links { display: flex; gap: clamp(14px, 2vw, 28px); font-size: 0.82rem; letter-spacing: 0.16em; text-transform: uppercase; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; color: var(--ink-soft); }
+    .nav-links a { color: var(--ink); transition: color 0.2s; padding: 6px 0; position: relative; }
+    .nav-links a:hover { color: var(--rust); }
+    .nav-links a.active { color: var(--rust); border-bottom: 1px solid var(--rust); }
+    @media (max-width: 560px) {
+      nav.primary .container { gap: 10px; justify-content: center; }
+      .nav-links { gap: 18px; font-size: 0.72rem; letter-spacing: 0.14em; flex-wrap: wrap; justify-content: center; }
+      .nav-mark { font-size: 0.95rem; gap: 0; }
+      .nav-mark::before { display: none; }
+    }
+
+    /* ============ BREADCRUMB ============ */
+    .breadcrumb {
+      padding: 32px 0 0;
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+    }
+    .breadcrumb a { color: var(--ink-mute); transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--rust); }
+    .breadcrumb .sep { margin: 0 12px; color: var(--rust); }
+    .breadcrumb .current { color: var(--ink); }
+
+    /* ============ PRODUCT DETAIL ============ */
+    .product-detail {
+      padding: clamp(40px, 5vw, 70px) 0 clamp(60px, 8vw, 110px);
+    }
+    .product-detail .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(40px, 5vw, 80px);
+      align-items: start;
+    }
+    @media (max-width: 880px) {
+      .product-detail .container { grid-template-columns: 1fr; gap: 40px; }
+    }
+
+    .product-gallery {
+      position: sticky;
+      top: 100px;
+    }
+    @media (max-width: 880px) { .product-gallery { position: static; } }
+
+    .product-main-image {
+      aspect-ratio: 1;
+      background: #14110D;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 1px solid var(--rule);
+    }
+    .product-main-image img {
+      width: 78%;
+      height: 78%;
+      object-fit: contain;
+    }
+
+    .product-thumbs {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .product-thumb {
+      aspect-ratio: 1;
+      background: #14110D;
+      border: 1px solid var(--rule);
+      cursor: pointer;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.55;
+      transition: opacity 0.25s ease, border-color 0.25s ease;
+    }
+    .product-thumb img { width: 70%; height: 70%; object-fit: contain; }
+    .product-thumb:hover, .product-thumb.active {
+      opacity: 1;
+      border-color: var(--bsc-amber);
+    }
+
+    .product-info { padding-top: 8px; }
+
+    .product-brand-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 18px;
+    }
+    .product-brand-chip::before {
+      content: '';
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .product-brand-chip.bsc::before  { background: var(--bsc-amber); }
+    .product-brand-chip.tv::before   { background: var(--tv-red); }
+    .product-brand-chip.tank::before { background: var(--tank-yellow); }
+    .product-brand-chip.bsc { color: var(--bsc-amber-deep); }
+    .product-brand-chip.tv { color: var(--tv-red); }
+    .product-brand-chip.tank { color: var(--bsc-amber-deep); }
+
+    .product-h1 {
+      font-family: var(--serif);
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      letter-spacing: -0.025em;
+      line-height: 1.05;
+      margin: 0 0 18px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+    }
+
+    .product-category-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      padding: 6px 12px;
+      border: 1px solid var(--rule);
+      margin-bottom: 24px;
+    }
+
+    .product-short {
+      font-size: 1.1rem;
+      color: var(--ink-soft);
+      line-height: 1.55;
+      margin: 0 0 28px;
+      font-style: italic;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .product-long {
+      font-size: 0.98rem;
+      color: var(--ink-soft);
+      line-height: 1.7;
+      margin: 0 0 32px;
+    }
+
+    .product-specs {
+      margin: 0 0 36px;
+      border-top: 1px solid var(--rule);
+    }
+    .spec-row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--rule);
+      gap: 20px;
+    }
+    .spec-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      padding-top: 2px;
+    }
+    .spec-value {
+      color: var(--ink);
+      font-size: 0.95rem;
+    }
+
+    /* WhatsApp CTA */
+    .whatsapp-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--whatsapp);
+      color: #fff;
+      font-family: var(--sans);
+      font-weight: 500;
+      font-size: 0.95rem;
+      letter-spacing: 0.06em;
+      padding: 18px 32px;
+      border-radius: 4px;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 8px 24px -8px rgba(37, 211, 102, 0.45);
+    }
+    .whatsapp-cta:hover {
+      background: #1FAA53;
+      transform: translateY(-2px);
+    }
+    .whatsapp-cta svg { width: 22px; height: 22px; fill: #fff; }
+    .whatsapp-note {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--ink-mute);
+      margin-top: 14px;
+      letter-spacing: 0.04em;
+    }
+
+    /* ============ NOT FOUND ============ */
+    .not-found {
+      text-align: center;
+      padding: 120px 20px;
+    }
+    .not-found h1 {
+      font-family: var(--serif);
+      font-size: 2.5rem;
+      font-style: italic;
+      color: var(--rust);
+      margin: 0 0 16px;
+    }
+    .not-found p {
+      color: var(--ink-mute);
+      margin: 0 0 28px;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 24px;
+      background: var(--ink);
+      color: var(--paper);
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+    .back-link:hover { background: var(--rust); }
+
+    /* Footer */
+    /* ============ FOOTER ============ */
+    footer.bottom { background: var(--ink); color: rgba(242,234,218,0.6); padding: clamp(56px, 7vw, 80px) 0 32px; border-top: 1px solid rgba(242,234,218,0.12); font-family: var(--sans); }
+    .footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr 1.1fr; gap: clamp(32px, 4vw, 56px); padding-bottom: clamp(40px, 5vw, 60px); border-bottom: 1px solid rgba(242,234,218,0.12); }
+    @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; } }
+    @media (max-width: 540px) { .footer-grid { grid-template-columns: 1fr; } }
+    .footer-brand { display: flex; flex-direction: column; gap: 10px; }
+    .footer-mark { font-family: var(--serif); font-weight: 500; font-size: 1.6rem; letter-spacing: -0.02em; color: var(--bsc-amber); line-height: 1; }
+    .footer-mark em { font-style: italic; }
+    .footer-deva { font-family: var(--deva); font-style: italic; font-size: 0.95rem; color: var(--bsc-amber-deep); letter-spacing: 0.02em; line-height: 1.3; }
+    .footer-tagline { font-size: 0.74rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(242,234,218,0.45); margin-top: 14px; line-height: 1.7; }
+    .footer-col h4 { font-family: var(--sans); font-weight: 500; font-size: 0.74rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--rust); margin: 0 0 20px; }
+    .footer-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 13px; }
+    .footer-list a { color: rgba(242,234,218,0.78); font-size: 0.92rem; letter-spacing: 0; text-transform: none; transition: color 0.2s ease; display: inline-block; }
+    .footer-list a:hover { color: var(--bsc-amber); }
+    .footer-list .small { display: block; font-size: 0.74rem; color: rgba(242,234,218,0.42); letter-spacing: 0.04em; margin-top: 4px; text-transform: none; }
+    .footer-address { font-style: normal; font-size: 0.92rem; line-height: 1.75; color: rgba(242,234,218,0.78); }
+    .footer-address-deva { display: block; font-family: var(--deva); font-style: italic; color: var(--bsc-amber-deep); font-size: 0.85rem; margin-top: 10px; letter-spacing: 0.02em; }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; padding-top: 28px; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(242,234,218,0.45); }
+    .footer-bottom .brands-list { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+    .footer-bottom .brands-list span:not(.dot) { color: rgba(242,234,218,0.55); }
+    .footer-bottom .dot { color: rgba(242,234,218,0.25); }
+    @media (max-width: 720px) { .footer-bottom { justify-content: center; text-align: center; flex-direction: column; } }
+  </style>
+</head>
+<body>
+
+  <div class="masthead-bar">
+    <div class="container">
+      <div class="left">
+        <span>Year 76</span>
+        <span class="dot"></span>
+        <span>Estd. 1949 &middot; Ratlam</span>
+        <span class="dot"></span>
+        <span>Indore + Mumbai</span>
+      </div>
+      <div class="right"><span>Rain &middot; Sun &middot; Storm</span></div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-left">A House of Brands</div>
+      <div class="masthead-center">
+        <h1 class="masthead-title">BSC <em>Umbrellas</em></h1>
+        <div class="masthead-deva">भैय्या साहब छत्रीवाला</div>
+      </div>
+      <div class="masthead-right">Rain Essentials &middot; Since 1949</div>
+    </div>
+  </header>
+
+  <nav class="primary">
+    <div class="container">
+      <a href="index.html" class="nav-mark">BSC Umbrellas</a>
+      <ul class="nav-links">
+        <li><a href="index.html#categories">Categories</a></li>
+        <li><a href="index.html#brands">Brands</a></li>
+        <li><a href="index.html#heritage">Heritage</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="content"></div>
+
+  <footer class="bottom">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-mark">BSC <em>Umbrellas</em></div>
+          <div class="footer-deva">भैय्या साहब छत्रीवाला</div>
+          <div class="footer-tagline">Rain Essentials<br />Trusted Since 1949</div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#categories">Categories</a></li>
+            <li><a href="index.html#brands">Brands</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="index.html#heritage">Heritage</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Reach Us</h4>
+          <ul class="footer-list">
+            <li>
+              <a href="tel:+919425103988">+91 94251 03988</a>
+              <span class="small">Mon&ndash;Sat &middot; 10:00 to 19:00 IST</span>
+            </li>
+            <li>
+              <a href="https://wa.me/919425103988" target="_blank" rel="noopener">WhatsApp</a>
+              <span class="small">Catalog &middot; Quotes &middot; Orders</span>
+            </li>
+            <li>
+              <a href="mailto:hello@bscumbrellas.com">hello@bscumbrellas.com</a>
+              <span class="small">Trade &amp; general enquiries</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Indore Office</h4>
+          <address class="footer-address">
+            83, Ranipura Main Road,<br />
+            Ranipura, Siyaganj,<br />
+            Indore, Madhya Pradesh<br />
+            452007 &middot; India
+            <span class="footer-address-deva">इंदौर कार्यालय</span>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 BSC Umbrellas &middot; All rights reserved</div>
+        <div class="brands-list">
+          <span>BSC Umbrellas</span>
+          <span class="dot">&middot;</span>
+          <span>T.V. Umbrellas</span>
+          <span class="dot">&middot;</span>
+          <span>Tank Chhap</span>
+        </div>
+        <div>Indore &middot; Mumbai &middot; India</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const BRAND_CLASSES = { 'BSC Umbrellas':'bsc', 'T.V. Brand':'tv', 'Tank Chhap':'tank' };
+    const WHATSAPP_NUMBER = '919425103988';
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    async function loadProduct() {
+      const id = new URLSearchParams(location.search).get('id');
+      if (!id) { renderNotFound('No product specified.'); return; }
+
+      try {
+        const res = await fetch('products.json');
+        const data = await res.json();
+        const product = data.products.find(p => p.id === id);
+        if (!product) { renderNotFound(`We couldn't find a product with id "${id}".`); return; }
+        renderProduct(product);
+      } catch (e) {
+        console.error(e);
+        renderNotFound('Could not load product details.');
+      }
+    }
+
+    function renderProduct(p) {
+      document.title = `${p.name} · ${p.brand} · BSC Umbrellas`;
+
+      const brandClass = BRAND_CLASSES[p.brand] || 'bsc';
+      const allImages = [p.image, ...(p.images || [])].filter(Boolean);
+
+      const specs = [];
+      if (p.size)     specs.push(['Size', p.size]);
+      if (p.material) specs.push(['Material', p.material]);
+      if (p.colors)   specs.push(['Colours', p.colors]);
+
+      const waMessage = encodeURIComponent(`Hi, I'd like to enquire about "${p.name}" (${p.brand} — ${p.category}). Please share the catalogue & pricing.`);
+      const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waMessage}`;
+
+      document.getElementById('content').innerHTML = `
+        <div class="container">
+          <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span class="sep">/</span>
+            <a href="products.html">Products</a>
+            <span class="sep">/</span>
+            <a href="products.html?cat=${encodeURIComponent(p.category)}">${escapeHtml(p.category)}</a>
+            <span class="sep">/</span>
+            <span class="current">${escapeHtml(p.name)}</span>
+          </div>
+        </div>
+
+        <section class="product-detail">
+          <div class="container">
+            <div class="product-gallery">
+              <div class="product-main-image">
+                <img id="main-img" src="${p.image}" alt="${escapeHtml(p.name)}" />
+              </div>
+              ${allImages.length > 1 ? `
+                <div class="product-thumbs">
+                  ${allImages.map((img, i) => `
+                    <div class="product-thumb ${i === 0 ? 'active' : ''}" data-img="${img}">
+                      <img src="${img}" alt="${escapeHtml(p.name)} view ${i + 1}" loading="lazy" />
+                    </div>
+                  `).join('')}
+                </div>
+              ` : ''}
+            </div>
+
+            <div class="product-info">
+              <div class="product-brand-chip ${brandClass}">${escapeHtml(p.brand)}</div>
+              <h1 class="product-h1">${escapeHtml(p.name)}</h1>
+              <div class="product-category-tag">${escapeHtml(p.category)}</div>
+
+              <p class="product-short">${escapeHtml(p.short_desc)}</p>
+
+              ${p.long_desc ? `<p class="product-long">${escapeHtml(p.long_desc)}</p>` : ''}
+
+              ${specs.length ? `
+                <div class="product-specs">
+                  ${specs.map(([k, v]) => `
+                    <div class="spec-row">
+                      <div class="spec-label">${escapeHtml(k)}</div>
+                      <div class="spec-value">${escapeHtml(v)}</div>
+                    </div>
+                  `).join('')}
+                </div>
+              ` : ''}
+
+              <a href="${waLink}" target="_blank" rel="noopener" class="whatsapp-cta">
+                <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Enquire on WhatsApp
+              </a>
+              <span class="whatsapp-note">Opens WhatsApp with your enquiry pre-filled. We typically reply within a few hours during business days.</span>
+            </div>
+          </div>
+        </section>
+      `;
+
+      // Wire up thumbnails
+      document.querySelectorAll('.product-thumb').forEach(t => {
+        t.addEventListener('click', () => {
+          document.querySelectorAll('.product-thumb').forEach(x => x.classList.remove('active'));
+          t.classList.add('active');
+          document.getElementById('main-img').src = t.dataset.img;
+        });
+      });
+    }
+
+    function renderNotFound(msg) {
+      document.title = 'Product Not Found · BSC Umbrellas';
+      document.getElementById('content').innerHTML = `
+        <div class="not-found">
+          <h1>Product not found</h1>
+          <p>${escapeHtml(msg)}</p>
+          <a href="products.html" class="back-link">&larr; Back to all products</a>
+        </div>
+      `;
+    }
+
+    loadProduct();
+  </script>
+
+</body>
+</html>

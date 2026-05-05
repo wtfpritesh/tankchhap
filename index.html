@@ -1,0 +1,2219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSC Umbrellas — Rain Essentials Since 1949</title>
+  <meta name="description" content="A heritage rain-essentials house from Indore. Three brands — BSC Umbrellas, T.V. Umbrellas, and Tank Chhap — covering umbrellas, raincoats, ponchos, and garden umbrellas since 1949." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..900,0..100,0..1&family=DM+Sans:opsz,wght@9..40,300..700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --paper:        #F2EADA;
+      --paper-light:  #F8F2E4;
+      --paper-deep:   #E8DFC9;
+      --ink:          #14110D;
+      --ink-soft:     #3B342A;
+      --ink-mute:     #6B6053;
+      --rule:         #1A1612;
+      --bsc-amber:    #F0A91C;
+      --bsc-amber-deep: #C8881A;
+      --bsc-blue:     #1769B7;
+      --tank-yellow:  #F4B41A;
+      --tv-red:       #D81B1B;
+      --tv-red-deep:  #A91313;
+      --tank-charcoal:#1A1612;
+      --tank-cream:   #F8F2E4;
+      --rust:         #B0512F;
+      --max:          1240px;
+      --gutter:       clamp(20px, 4vw, 56px);
+      --serif: 'Fraunces', 'Bodoni Moda', Georgia, serif;
+      --sans:  'DM Sans', system-ui, sans-serif;
+      --deva:  'Tiro Devanagari Hindi', serif;
+      --t-h1: clamp(3.4rem, 9vw, 8.5rem);
+      --t-h2: clamp(2.2rem, 5vw, 4.4rem);
+      --t-h3: clamp(1.5rem, 2.6vw, 2.2rem);
+      --t-body: clamp(1rem, 1.1vw, 1.125rem);
+      --t-small: 0.8125rem;
+      --t-eyebrow: 0.78rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: var(--t-body);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='3'/><feColorMatrix values='0 0 0 0 0.08  0 0 0 0 0.07  0 0 0 0 0.05  0 0 0 0.18 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/></svg>");
+      background-size: 400px 400px;
+      opacity: 0.5;
+      mix-blend-mode: multiply;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      background: radial-gradient(ellipse at center, transparent 50%, rgba(20,17,13,0.08) 100%);
+    }
+
+    main, header, footer { position: relative; z-index: 2; }
+
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      letter-spacing: -0.018em;
+      color: var(--ink);
+      margin: 0;
+      font-variation-settings: 'opsz' 144, 'SOFT' 25, 'WONK' 0;
+    }
+
+    p { margin: 0 0 1em; color: var(--ink-soft); }
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    .masthead-bar {
+      border-bottom: 1px solid var(--rule);
+      background: var(--paper-light);
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .masthead-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .masthead-bar .left, .masthead-bar .right {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+    .masthead-bar .dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: var(--rust); display: inline-block;
+    }
+    @media (max-width: 720px) {
+      .masthead-bar { display: none; }
+    }
+
+    .masthead {
+      border-bottom: 1px solid rgba(240, 169, 28, 0.28);
+      padding: 36px 0 32px;
+      background: var(--ink);
+      position: relative;
+    }
+    .masthead::before {
+      content: '';
+      position: absolute;
+      left: 0; right: 0; bottom: 4px;
+      height: 1px;
+      background: rgba(240, 169, 28, 0.18);
+    }
+    .masthead .container {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 24px;
+    }
+    .masthead-left, .masthead-right {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(242, 234, 218, 0.55);
+    }
+    .masthead-right { text-align: right; }
+    .masthead-title {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-variation-settings: 'opsz' 144, 'SOFT' 50, 'WONK' 1;
+      font-size: clamp(1.8rem, 3.4vw, 3rem);
+      letter-spacing: -0.02em;
+      line-height: 1;
+      text-align: center;
+      color: var(--bsc-amber);
+    }
+    .masthead-title em {
+      font-style: italic;
+      color: var(--bsc-amber);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    @media (max-width: 720px) {
+      .masthead .container { grid-template-columns: 1fr; text-align: center; }
+      .masthead-right { text-align: center; }
+    }
+
+    nav.primary {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(242,234,218,0.92);
+      border-bottom: 1px solid var(--rule);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    nav.primary .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .nav-mark {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1.1rem;
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .nav-mark::before {
+      content: '';
+      width: 22px; height: 22px;
+      background: var(--bsc-amber);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+      display: inline-block;
+    }
+    .nav-links {
+      display: flex;
+      gap: clamp(14px, 2vw, 28px);
+      list-style: none;
+      padding: 0; margin: 0;
+      font-size: 0.82rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .nav-links a {
+      position: relative;
+      padding: 6px 0;
+      transition: color 0.2s ease;
+    }
+    .nav-links a:hover { color: var(--rust); }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      height: 1px;
+      background: var(--rust);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+    .nav-links a:hover::after { transform: scaleX(1); }
+
+    @media (max-width: 560px) {
+      nav.primary .container { gap: 10px; justify-content: center; }
+      .nav-links { gap: 18px; font-size: 0.72rem; letter-spacing: 0.14em; flex-wrap: wrap; justify-content: center; }
+      .nav-mark { font-size: 0.95rem; gap: 0; }
+      .nav-mark::before { display: none; }
+    }
+
+    .hero {
+      padding: clamp(48px, 6vw, 88px) 0 clamp(70px, 10vw, 130px);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    .hero .container {
+      position: relative;
+      z-index: 2;
+    }
+    .hero-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: clamp(24px, 3vw, 36px);
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      font-family: var(--sans);
+      font-size: var(--t-eyebrow);
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin: 0;
+    }
+    .hero-eyebrow::before, .hero-eyebrow::after {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: var(--rust);
+    }
+    @media (max-width: 480px) {
+      .hero-eyebrow { gap: 10px; font-size: 0.7rem; letter-spacing: 0.24em; }
+      .hero-eyebrow::before, .hero-eyebrow::after { width: 18px; }
+    }
+
+    .hero-title {
+      font-size: var(--t-h1);
+      line-height: 0.92;
+      letter-spacing: -0.035em;
+      margin: 0;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+    }
+    .hero-title .ital {
+      font-style: italic;
+      color: var(--rust);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+
+    .hero-lede {
+      font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+      line-height: 1.55;
+      max-width: 56ch;
+      margin: 0;
+      color: var(--ink-soft);
+    }
+
+    .hero-deva {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: clamp(1rem, 1.4vw, 1.2rem);
+      color: var(--rust);
+      letter-spacing: 0.02em;
+      margin: -10px 0 0;
+      line-height: 1.3;
+    }
+
+    .hero-meta {
+      display: flex;
+      gap: clamp(28px, 5vw, 64px);
+      flex-wrap: wrap;
+      padding-top: 30px;
+      margin-top: 12px;
+      border-top: 1px solid rgba(20,17,13,0.18);
+      width: 100%;
+      max-width: 560px;
+      justify-content: center;
+    }
+    .hero-meta div {
+      font-size: var(--t-small);
+      letter-spacing: 0.04em;
+      text-align: center;
+    }
+    .hero-meta strong {
+      display: block;
+      font-family: var(--serif);
+      font-size: 1.7rem;
+      font-weight: 500;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+      line-height: 1.1;
+      margin-bottom: 4px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 50, 'WONK' 0;
+    }
+    .hero-meta span {
+      color: var(--ink-mute);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.7rem;
+    }
+
+    .hero-cue {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.74rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      padding: 8px 0;
+      margin-top: 8px;
+      transition: color 0.3s ease;
+    }
+    .hero-cue:hover { color: var(--rust); }
+    .hero-cue svg {
+      width: 14px;
+      height: 14px;
+      animation: bob 2.2s ease-in-out infinite;
+    }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(5px); }
+    }
+
+    /* RAIN ANIMATION (subtle, behind hero) */
+    .rain-bg {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .drop {
+      position: absolute;
+      top: -10%;
+      left: var(--x);
+      width: 1px;
+      height: 56px;
+      background: linear-gradient(to bottom, transparent, rgba(20,17,13,0.32));
+      animation: fall var(--d) linear var(--del) infinite;
+      opacity: 0.55;
+      will-change: transform;
+    }
+    @keyframes fall {
+      0% { transform: translateY(0); opacity: 0; }
+      8% { opacity: 0.55; }
+      92% { opacity: 0.55; }
+      100% { transform: translateY(120vh); opacity: 0; }
+    }
+    @media (max-width: 720px) {
+      .drop:nth-child(2n) { display: none; }
+      .drop { height: 42px; }
+    }
+
+    section { position: relative; }
+    .section {
+      padding: clamp(80px, 10vw, 140px) 0;
+      border-top: 1px solid var(--rule);
+    }
+    .section-head {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 28px;
+      align-items: end;
+      margin-bottom: 64px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(20,17,13,0.2);
+    }
+    @media (max-width: 720px) {
+      .section-head { grid-template-columns: 1fr; gap: 14px; }
+    }
+    .section-num {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.8rem;
+      color: var(--rust);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .section-title {
+      font-size: var(--t-h2);
+      line-height: 0.95;
+      letter-spacing: -0.025em;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+    }
+    .section-title .ital {
+      font-style: italic;
+      color: var(--rust);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .section-kicker {
+      font-size: var(--t-eyebrow);
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+      border: 1px solid var(--rule);
+      background: var(--paper-light);
+    }
+    @media (max-width: 1080px) {
+      .categories-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 540px) {
+      .categories-grid { grid-template-columns: 1fr; }
+    }
+    .cat-card {
+      padding: 44px 28px 32px;
+      border-right: 1px solid var(--rule);
+      position: relative;
+      cursor: default;
+      transition: background 0.4s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 280px;
+    }
+    .cat-card:last-child { border-right: none; }
+    @media (max-width: 1080px) {
+      .cat-card { border-bottom: 1px solid var(--rule); }
+      .cat-card:nth-child(2n) { border-right: none; }
+      .cat-card:last-child {
+        grid-column: 1 / -1;
+        border-bottom: none;
+        border-right: none;
+      }
+    }
+    @media (max-width: 540px) {
+      .cat-card {
+        border-right: none !important;
+        border-bottom: 1px solid var(--rule);
+        grid-column: auto !important;
+      }
+      .cat-card:last-child { border-bottom: none; }
+    }
+
+    /* Hover: card flips to black with gold accents */
+    .cat-card:hover { background: var(--ink); }
+    .cat-card:hover .cat-name { color: var(--paper); }
+    .cat-card:hover .cat-desc { color: rgba(242, 234, 218, 0.68); }
+    .cat-card:hover .cat-num { color: var(--bsc-amber); }
+    .cat-card:hover .cat-deva { color: var(--bsc-amber); }
+    .cat-card:hover .cat-icon { color: var(--bsc-amber); opacity: 1; }
+
+    .cat-num {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--rust);
+      letter-spacing: 0.04em;
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+      transition: color 0.4s ease;
+    }
+    .cat-name {
+      font-family: var(--serif);
+      font-size: clamp(1.5rem, 2.2vw, 2rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin: 30px 0 14px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+      transition: color 0.4s ease;
+    }
+    .cat-desc {
+      font-size: 0.9rem;
+      color: var(--ink-mute);
+      line-height: 1.5;
+      margin: 0;
+      transition: color 0.4s ease;
+    }
+    .cat-icon {
+      position: absolute;
+      top: 32px;
+      right: 28px;
+      width: 36px;
+      height: 36px;
+      color: var(--ink);
+      opacity: 0.85;
+      transition: color 0.4s ease, opacity 0.4s ease;
+    }
+
+    .brands-intro {
+      max-width: 56ch;
+      margin-bottom: 80px;
+      font-size: 1.08rem;
+      color: var(--ink-soft);
+    }
+
+    .brand-block {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: clamp(32px, 5vw, 72px);
+      padding: clamp(48px, 6vw, 80px) clamp(32px, 5vw, 64px);
+      border: 1px solid var(--rule);
+      margin-bottom: 28px;
+      align-items: center;
+      position: relative;
+    }
+    @media (max-width: 880px) {
+      .brand-block { grid-template-columns: 1fr; padding-top: 56px; padding-bottom: 56px; }
+    }
+    .brand-block.reverse { grid-template-columns: 1.3fr 1fr; }
+    .brand-block.reverse .brand-art { order: 2; }
+    @media (max-width: 880px) {
+      .brand-block.reverse { grid-template-columns: 1fr; }
+      .brand-block.reverse .brand-art { order: -1; }
+    }
+
+    .brand-block.bsc { background: linear-gradient(135deg, #FBF6E4 0%, #F2EADA 100%); }
+    .brand-block.tv { background: #000; color: var(--paper-light); }
+    .brand-block.tv .brand-name, .brand-block.tv .brand-tagline, .brand-block.tv .brand-desc, .brand-block.tv .brand-meta div, .brand-block.tv .brand-meta strong { color: var(--paper-light); }
+    .brand-block.tv .brand-meta span { color: rgba(248,242,228,0.55); }
+    .brand-block.tv .brand-meta { border-top-color: rgba(248,242,228,0.2); }
+    .brand-block.tank { background: var(--paper-light); }
+
+    .brand-art {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      position: relative;
+    }
+    .brand-art img {
+      max-width: 100%;
+      max-height: 380px;
+      width: auto;
+      height: auto;
+      display: block;
+    }
+
+    .brand-block.bsc .brand-art {
+      background: var(--paper);
+      border: 1px solid rgba(20,17,13,0.15);
+      aspect-ratio: 1;
+    }
+    .brand-block.tv .brand-art {
+      background: #000;
+      border: 1px solid rgba(248,242,228,0.15);
+      aspect-ratio: 1;
+    }
+    .brand-block.tank .brand-art {
+      background: #0F0D0A;
+      aspect-ratio: 1;
+    }
+
+    .brand-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: var(--t-eyebrow);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    .brand-block.bsc .brand-eyebrow { color: var(--bsc-amber-deep); }
+    .brand-block.tv .brand-eyebrow { color: var(--tv-red); }
+    .brand-block.tank .brand-eyebrow { color: var(--ink); }
+
+    .brand-name {
+      font-family: var(--serif);
+      font-size: clamp(2.4rem, 4.2vw, 3.6rem);
+      line-height: 1;
+      letter-spacing: -0.025em;
+      margin-bottom: 18px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+    }
+    .brand-name em {
+      font-style: italic;
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .brand-block.bsc .brand-name em { color: var(--bsc-amber-deep); }
+    .brand-block.tv .brand-name em { color: var(--tv-red); }
+    .brand-block.tank .brand-name em { color: var(--tank-yellow); }
+
+    .brand-tagline {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--ink-soft);
+      margin-bottom: 22px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .brand-desc {
+      font-size: 1rem;
+      color: var(--ink-soft);
+      max-width: 50ch;
+      margin-bottom: 28px;
+    }
+
+    .brand-meta {
+      display: flex;
+      gap: 32px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(20,17,13,0.18);
+      flex-wrap: wrap;
+    }
+    .brand-meta div { font-size: var(--t-small); }
+    .brand-meta strong {
+      display: block;
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.15rem;
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 50, 'WONK' 0;
+    }
+    .brand-meta span {
+      color: var(--ink-mute);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.7rem;
+    }
+
+    .heritage {
+      background: var(--paper-light);
+      position: relative;
+    }
+    .heritage-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: clamp(40px, 6vw, 100px);
+      align-items: center;
+    }
+    @media (max-width: 880px) {
+      .heritage-grid { grid-template-columns: 1fr; }
+    }
+    .heritage-year {
+      font-family: var(--serif);
+      font-size: clamp(8rem, 22vw, 20rem);
+      line-height: 0.85;
+      letter-spacing: -0.05em;
+      color: var(--ink);
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+      position: relative;
+      padding-bottom: 0.18em;
+    }
+    .heritage-year .ital {
+      font-style: italic;
+      color: var(--rust);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .heritage-year-label {
+      font-size: var(--t-eyebrow);
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(20,17,13,0.2);
+    }
+
+    .heritage-copy h3 {
+      font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+    }
+    .heritage-copy h3 em {
+      font-style: italic;
+      color: var(--rust);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .heritage-copy p {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--ink-soft);
+      margin-bottom: 18px;
+    }
+    .heritage-hindi {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: 1.25rem;
+      color: var(--rust);
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(20,17,13,0.2);
+      letter-spacing: 0.01em;
+    }
+
+    .contact {
+      background: var(--ink);
+      color: var(--paper);
+      border-top: none;
+    }
+    .contact .section-num { color: var(--bsc-amber); }
+    .contact .section-title, .contact .section-kicker { color: var(--paper-light); }
+    .contact .section-kicker { color: rgba(242,234,218,0.6); }
+    .contact .section-head { border-bottom-color: rgba(242,234,218,0.18); }
+
+    .contact-lede {
+      font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+      line-height: 1.55;
+      color: rgba(242,234,218,0.78);
+      max-width: 56ch;
+      margin-bottom: 56px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border: 1px solid rgba(242,234,218,0.2);
+    }
+    @media (max-width: 820px) {
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+    .contact-card {
+      padding: 40px 36px;
+      border-right: 1px solid rgba(242,234,218,0.2);
+      transition: background 0.3s ease;
+      display: block;
+    }
+    .contact-card:last-child { border-right: none; }
+    @media (max-width: 820px) {
+      .contact-card { border-right: none; border-bottom: 1px solid rgba(242,234,218,0.2); }
+      .contact-card:last-child { border-bottom: none; }
+    }
+    .contact-card:hover { background: rgba(242,234,218,0.04); }
+    .contact-label {
+      font-size: var(--t-eyebrow);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--bsc-amber);
+      margin-bottom: 24px;
+    }
+    .contact-value {
+      font-family: var(--serif);
+      font-size: clamp(1.3rem, 2vw, 1.7rem);
+      line-height: 1.2;
+      letter-spacing: -0.015em;
+      color: var(--paper);
+      margin-bottom: 16px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 0;
+      word-break: break-word;
+    }
+    .contact-sub {
+      font-size: 0.85rem;
+      color: rgba(242,234,218,0.55);
+      letter-spacing: 0.04em;
+    }
+
+    .contact-location {
+      margin-top: 56px;
+      padding-top: 36px;
+      border-top: 1px solid rgba(242,234,218,0.18);
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+    .contact-location .label {
+      font-size: var(--t-eyebrow);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--bsc-amber);
+    }
+    .contact-location .place {
+      font-family: var(--serif);
+      font-size: clamp(1.2rem, 2vw, 1.5rem);
+      letter-spacing: -0.01em;
+      color: var(--paper);
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 0;
+    }
+
+    /* ============ FEATURED PRODUCTS CAROUSEL ============ */
+    .featured-products .section-title .title-link {
+      color: inherit;
+      text-decoration: none;
+      display: inline;
+      transition: color 0.3s ease;
+      position: relative;
+    }
+    .featured-products .section-title .title-link:hover { color: var(--rust); }
+    .featured-products .section-title .title-arrow {
+      display: inline-block;
+      margin-left: 0.18em;
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--rust);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+      transition: transform 0.3s ease;
+      vertical-align: baseline;
+    }
+    .featured-products .section-title .title-link:hover .title-arrow {
+      transform: translateX(8px);
+    }
+
+    .carousel-wrap {
+      position: relative;
+      display: grid;
+      grid-template-columns: 48px 1fr 48px;
+      gap: clamp(10px, 1.6vw, 22px);
+      align-items: stretch;
+    }
+    @media (max-width: 720px) {
+      .carousel-wrap { grid-template-columns: 1fr; }
+    }
+
+    .carousel-btn {
+      width: 48px;
+      height: 48px;
+      align-self: center;
+      border-radius: 50%;
+      background: transparent;
+      border: 1px solid var(--rule);
+      color: var(--ink);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+      -webkit-tap-highlight-color: transparent;
+      font-family: inherit;
+    }
+    .carousel-btn svg { width: 16px; height: 16px; display: block; }
+    .carousel-btn:hover {
+      background: var(--ink);
+      color: var(--paper);
+      border-color: var(--ink);
+    }
+    .carousel-btn:focus-visible {
+      outline: 2px solid var(--rust);
+      outline-offset: 3px;
+    }
+    @media (max-width: 720px) {
+      .carousel-btn { display: none; }
+    }
+
+    .carousel-viewport {
+      overflow: hidden;
+      position: relative;
+      min-width: 0;
+    }
+
+    .carousel-track {
+      display: flex;
+      gap: clamp(20px, 2.5vw, 36px);
+      transition: transform 0.7s cubic-bezier(0.65, 0.05, 0.36, 1);
+      will-change: transform;
+    }
+    .carousel-track.no-transition { transition: none !important; }
+
+    .featured-card {
+      flex: 0 0 calc((100% - 2 * clamp(20px, 2.5vw, 36px)) / 3);
+      display: flex;
+      flex-direction: column;
+      background: var(--paper-light);
+      border: 1px solid var(--rule);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+      min-width: 0;
+    }
+    .featured-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px -20px rgba(20,17,13,0.18);
+      border-color: rgba(20,17,13,0.32);
+    }
+    @media (max-width: 1080px) {
+      .featured-card {
+        flex: 0 0 calc((100% - clamp(20px, 2.5vw, 36px)) / 2);
+      }
+    }
+    @media (max-width: 720px) {
+      .featured-card { flex: 0 0 100%; }
+    }
+
+    .featured-card-image {
+      aspect-ratio: 1;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+    .featured-card-image img {
+      width: 80%;
+      height: 80%;
+      object-fit: contain;
+      transition: transform 0.5s ease;
+    }
+    .featured-card:hover .featured-card-image img { transform: scale(1.04); }
+
+    .featured-card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 18px 0;
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+    }
+    .featured-card-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 500;
+      color: var(--tv-red);
+    }
+    .featured-card-chip::before {
+      content: '';
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--tv-red);
+      display: inline-block;
+    }
+    .featured-card-name {
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+      margin: 12px 18px 8px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 0;
+      color: var(--ink);
+    }
+    .featured-card-desc {
+      font-size: 0.82rem;
+      color: var(--ink-mute);
+      margin: 0 18px 18px;
+      line-height: 1.5;
+      flex-grow: 1;
+    }
+    .featured-card-cta {
+      padding: 14px 18px;
+      border-top: 1px solid var(--rule);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--rust);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: color 0.2s;
+    }
+    .featured-card:hover .featured-card-cta { color: var(--ink); }
+    .featured-card-cta-arrow { transition: transform 0.3s; }
+    .featured-card:hover .featured-card-cta-arrow { transform: translateX(4px); }
+
+    .carousel-dots {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 36px;
+    }
+    .carousel-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(20,17,13,0.18);
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease, width 0.3s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .carousel-dot:hover { background: rgba(20,17,13,0.4); }
+    .carousel-dot.active {
+      background: var(--rust);
+      width: 24px;
+      border-radius: 4px;
+    }
+
+    .carousel-foot {
+      grid-column: 1 / -1;
+      margin-top: 32px;
+      display: flex;
+      justify-content: center;
+    }
+    .carousel-all-link {
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      padding: 12px 22px;
+      border: 1px solid var(--rule);
+      transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    .carousel-all-link:hover {
+      background: var(--ink);
+      color: var(--paper);
+      border-color: var(--ink);
+    }
+
+    /* ============ FOOTER ============ */
+    footer.bottom {
+      background: var(--ink);
+      color: rgba(242,234,218,0.6);
+      padding: clamp(56px, 7vw, 80px) 0 32px;
+      border-top: 1px solid rgba(242,234,218,0.12);
+      font-family: var(--sans);
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr 1.1fr;
+      gap: clamp(32px, 4vw, 56px);
+      padding-bottom: clamp(40px, 5vw, 60px);
+      border-bottom: 1px solid rgba(242,234,218,0.12);
+    }
+    @media (max-width: 900px) {
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+    }
+    @media (max-width: 540px) {
+      .footer-grid { grid-template-columns: 1fr; }
+    }
+    .footer-brand { display: flex; flex-direction: column; gap: 10px; }
+    .footer-mark {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-variation-settings: 'opsz' 144, 'SOFT' 50, 'WONK' 1;
+      font-size: 1.6rem;
+      letter-spacing: -0.02em;
+      color: var(--bsc-amber);
+      line-height: 1;
+    }
+    .footer-mark em {
+      font-style: italic;
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .footer-deva {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--bsc-amber-deep);
+      letter-spacing: 0.02em;
+      line-height: 1.3;
+    }
+    .footer-tagline {
+      font-size: 0.74rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(242,234,218,0.45);
+      margin-top: 14px;
+      line-height: 1.7;
+    }
+    .footer-col h4 {
+      font-family: var(--sans);
+      font-weight: 500;
+      font-size: 0.74rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin: 0 0 20px;
+    }
+    .footer-list {
+      list-style: none;
+      margin: 0; padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+    .footer-list a {
+      color: rgba(242,234,218,0.78);
+      font-size: 0.92rem;
+      letter-spacing: 0;
+      text-transform: none;
+      transition: color 0.2s ease;
+      display: inline-block;
+    }
+    .footer-list a:hover { color: var(--bsc-amber); }
+    .footer-list .small {
+      display: block;
+      font-size: 0.74rem;
+      color: rgba(242,234,218,0.42);
+      letter-spacing: 0.04em;
+      margin-top: 4px;
+      text-transform: none;
+    }
+    .footer-address {
+      font-style: normal;
+      font-size: 0.92rem;
+      line-height: 1.75;
+      color: rgba(242,234,218,0.78);
+    }
+    .footer-address-deva {
+      display: block;
+      font-family: var(--deva);
+      font-style: italic;
+      color: var(--bsc-amber-deep);
+      font-size: 0.85rem;
+      margin-top: 10px;
+      letter-spacing: 0.02em;
+    }
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding-top: 28px;
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(242,234,218,0.45);
+    }
+    .footer-bottom .brands-list {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .footer-bottom .brands-list span:not(.dot) { color: rgba(242,234,218,0.55); }
+    .footer-bottom .dot { color: rgba(242,234,218,0.25); }
+    @media (max-width: 720px) {
+      .footer-bottom { justify-content: center; text-align: center; flex-direction: column; }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .reveal.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal.d1 { transition-delay: 0.08s; }
+    .reveal.d2 { transition-delay: 0.16s; }
+    .reveal.d3 { transition-delay: 0.24s; }
+    .reveal.d4 { transition-delay: 0.32s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+      .drop { display: none; }
+      .hero-cue svg { animation: none; }
+    }
+
+    /* ============ HINDI / DEVANAGARI ACCENTS ============ */
+    .masthead-center { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+    .masthead-deva {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--bsc-amber-deep);
+      letter-spacing: 0.02em;
+      line-height: 1;
+    }
+
+    .brand-deva {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--rust);
+      margin: -6px 0 14px;
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+    }
+    .brand-block.tv .brand-deva { color: var(--tv-red); }
+    .brand-block.tank .brand-deva { color: var(--tank-yellow); }
+
+    .cat-deva {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: 0.92rem;
+      color: var(--rust);
+      margin: -10px 0 14px;
+      letter-spacing: 0.01em;
+      transition: color 0.4s ease;
+    }
+
+    /* ============ TIMELINE ============ */
+    .timeline-block {
+      margin-top: clamp(60px, 8vw, 110px);
+      padding: clamp(60px, 7vw, 96px) clamp(20px, 3vw, 40px) clamp(40px, 5vw, 60px);
+      border: 1px solid rgba(20,17,13,0.18);
+      text-align: center;
+      position: relative;
+      background: var(--paper);
+    }
+    .timeline-block::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(20,17,13,0.18) 1px, transparent 1.2px);
+      background-size: 18px 18px;
+      opacity: 0.55;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .timeline-block > * { position: relative; z-index: 1; }
+
+    .tl-overline {
+      font-size: 0.78rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      margin-bottom: 24px;
+      font-family: var(--sans);
+    }
+    .tl-title {
+      font-family: var(--serif);
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      letter-spacing: -0.025em;
+      line-height: 1;
+      margin-bottom: clamp(56px, 7vw, 88px);
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 1;
+    }
+    .tl-title em {
+      font-style: italic;
+      color: var(--bsc-amber-deep);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+
+    .tl-track {
+      position: relative;
+      height: 22px;
+      max-width: 880px;
+      margin: 0 auto 40px;
+    }
+    .tl-track::before {
+      content: '';
+      position: absolute;
+      left: 16.66%;
+      right: 16.66%;
+      top: 50%;
+      height: 1px;
+      background: var(--bsc-amber-deep);
+      opacity: 0.55;
+      transform: translateY(-50%);
+    }
+    .tl-node {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 1.5px solid var(--bsc-amber-deep);
+      background: var(--paper);
+    }
+    .tl-node.n1 { left: 16.66%; }
+    .tl-node.n2 { left: 50%; }
+    .tl-node.n3 { left: 83.33%; }
+
+    .tl-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: clamp(20px, 3vw, 40px);
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .tl-card { padding: 0 8px; }
+    .tl-num {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: clamp(2rem, 3.6vw, 3rem);
+      color: var(--bsc-amber-deep);
+      line-height: 1;
+      margin-bottom: 14px;
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .tl-label {
+      font-size: 0.78rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 10px;
+    }
+    .tl-deva {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--rust);
+      margin-bottom: 14px;
+      letter-spacing: 0.01em;
+    }
+    .tl-body {
+      font-size: 0.92rem;
+      color: var(--ink-soft);
+      max-width: 32ch;
+      margin: 0 auto;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 720px) {
+      .tl-track { display: none; }
+      .tl-cards { grid-template-columns: 1fr; gap: 0; }
+      .tl-card { padding: 28px 8px; border-bottom: 1px solid rgba(20,17,13,0.15); }
+      .tl-card:first-child { padding-top: 0; }
+      .tl-card:last-child { border-bottom: none; padding-bottom: 0; }
+    }
+
+    /* ============ CONTACT LOCATIONS ============ */
+    .contact-locations {
+      margin-top: 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border: 1px solid rgba(242,234,218,0.2);
+    }
+    @media (max-width: 720px) {
+      .contact-locations { grid-template-columns: 1fr; }
+    }
+    .loc-card {
+      padding: 36px 36px 32px;
+      border-right: 1px solid rgba(242,234,218,0.2);
+      transition: background 0.3s ease;
+    }
+    .loc-card:last-child { border-right: none; }
+    @media (max-width: 720px) {
+      .loc-card { border-right: none; border-bottom: 1px solid rgba(242,234,218,0.2); }
+      .loc-card:last-child { border-bottom: none; }
+    }
+    .loc-card:hover { background: rgba(242,234,218,0.04); }
+    .loc-label {
+      font-size: 0.78rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--bsc-amber);
+      margin-bottom: 22px;
+    }
+    .loc-place {
+      font-family: var(--serif);
+      font-size: clamp(1rem, 1.4vw, 1.2rem);
+      letter-spacing: -0.005em;
+      color: var(--paper);
+      line-height: 1.45;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 0;
+      margin-bottom: 14px;
+    }
+    .loc-deva {
+      font-family: var(--deva);
+      font-style: italic;
+      font-size: 0.9rem;
+      color: rgba(176,81,47,0.85);
+      letter-spacing: 0.01em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead-bar">
+    <div class="container">
+      <div class="left">
+        <span>Year 76</span>
+        <span class="dot"></span>
+        <span>Estd. 1949 &middot; Ratlam</span>
+        <span class="dot"></span>
+        <span>Indore + Mumbai</span>
+      </div>
+      <div class="right">
+        <span>Rain &middot; Sun &middot; Storm</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-left">A House of Brands</div>
+      <div class="masthead-center">
+        <h1 class="masthead-title">BSC <em>Umbrellas</em></h1>
+        <div class="masthead-deva">भैय्या साहब छत्रीवाला</div>
+      </div>
+      <div class="masthead-right">Rain Essentials &middot; Since 1949</div>
+    </div>
+  </header>
+
+  <nav class="primary">
+    <div class="container">
+      <div class="nav-mark">BSC Umbrellas</div>
+      <ul class="nav-links">
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#heritage">Heritage</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero">
+      <div class="rain-bg" aria-hidden="true">
+        <span class="drop" style="--x:4%;--d:5s;--del:0s"></span>
+        <span class="drop" style="--x:11%;--d:4.2s;--del:1.5s"></span>
+        <span class="drop" style="--x:18%;--d:6s;--del:0.7s"></span>
+        <span class="drop" style="--x:25%;--d:3.8s;--del:2.3s"></span>
+        <span class="drop" style="--x:32%;--d:5.5s;--del:0.4s"></span>
+        <span class="drop" style="--x:39%;--d:4.5s;--del:1.8s"></span>
+        <span class="drop" style="--x:46%;--d:6.2s;--del:3.1s"></span>
+        <span class="drop" style="--x:53%;--d:4s;--del:0.9s"></span>
+        <span class="drop" style="--x:60%;--d:5.8s;--del:2.6s"></span>
+        <span class="drop" style="--x:67%;--d:4.4s;--del:1.2s"></span>
+        <span class="drop" style="--x:74%;--d:6.4s;--del:0.3s"></span>
+        <span class="drop" style="--x:81%;--d:4.8s;--del:2.1s"></span>
+        <span class="drop" style="--x:88%;--d:5.2s;--del:0.8s"></span>
+        <span class="drop" style="--x:95%;--d:3.6s;--del:1.6s"></span>
+        <span class="drop" style="--x:8%;--d:5.6s;--del:2.8s"></span>
+        <span class="drop" style="--x:22%;--d:4.7s;--del:3.4s"></span>
+        <span class="drop" style="--x:36%;--d:6.6s;--del:1.9s"></span>
+        <span class="drop" style="--x:50%;--d:4.1s;--del:4.2s"></span>
+        <span class="drop" style="--x:64%;--d:5.4s;--del:2.7s"></span>
+        <span class="drop" style="--x:78%;--d:3.9s;--del:3.6s"></span>
+        <span class="drop" style="--x:92%;--d:6.8s;--del:4.5s"></span>
+        <span class="drop" style="--x:15%;--d:4.3s;--del:4.8s"></span>
+        <span class="drop" style="--x:43%;--d:5.7s;--del:0.5s"></span>
+        <span class="drop" style="--x:70%;--d:4.6s;--del:3.9s"></span>
+      </div>
+
+      <div class="container">
+        <div class="hero-stack">
+          <div class="hero-eyebrow reveal">Three Brands &middot; One House</div>
+
+          <h1 class="hero-title reveal d1">
+            Built for <span class="ital">All Seasons.</span><br />
+            Made for India.
+          </h1>
+
+          <p class="hero-lede reveal d2">
+            A heritage rain house, born in Ratlam in 1949 &mdash; three brands, one workshop, seventy-six monsoons of standing between India and the sky.
+          </p>
+
+          <div class="hero-deva reveal d2">हर मौसम, हर बूँद &mdash; आपके साथ।</div>
+
+          <div class="hero-meta reveal d3">
+            <div>
+              <strong>76</strong>
+              <span>Years</span>
+            </div>
+            <div>
+              <strong>3</strong>
+              <span>Brands</span>
+            </div>
+            <div>
+              <strong>5</strong>
+              <span>Categories</span>
+            </div>
+          </div>
+
+          <a href="#brands" class="hero-cue reveal d3">
+            <span>Meet the brands</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5 V19 M6 14 L12 20 L18 14"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-num">№ 01</div>
+          <div>
+            <span class="section-kicker">What We Make</span>
+            <h2 class="section-title">Five <span class="ital">categories.</span><br />One promise: keep you dry.</h2>
+          </div>
+        </div>
+
+        <div class="categories-grid reveal d1">
+
+          <div class="cat-card">
+            <div>
+              <div class="cat-num">01.</div>
+              <h3 class="cat-name">Umbrellas</h3>
+              <div class="cat-deva">छाते</div>
+              <p class="cat-desc">From compact folding everyday-carry to full-length classics &mdash; built for sudden showers and long monsoon afternoons alike.</p>
+            </div>
+            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M12 2 C6 2 2 7 2 11 L12 11 L22 11 C22 7 18 2 12 2 Z"/>
+              <path d="M12 11 V20 C12 21.1 12.9 22 14 22 C15.1 22 16 21.1 16 20"/>
+            </svg>
+          </div>
+
+          <div class="cat-card">
+            <div>
+              <div class="cat-num">02.</div>
+              <h3 class="cat-name">Raincoats</h3>
+              <div class="cat-deva">रेनकोट</div>
+              <p class="cat-desc">Functional, durable rainwear made to last seasons &mdash; for daily commute, fieldwork, and everything in between.</p>
+            </div>
+            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M6 6 L8 3 H16 L18 6 L21 9 V21 H3 V9 Z"/>
+              <path d="M12 3 V21"/>
+            </svg>
+          </div>
+
+          <div class="cat-card">
+            <div>
+              <div class="cat-num">03.</div>
+              <h3 class="cat-name">Ponchos</h3>
+              <div class="cat-deva">पोंचो</div>
+              <p class="cat-desc">Quick-cover, fold-flat protection. Light, packable, and always there when the sky turns without warning.</p>
+            </div>
+            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M12 3 C8 3 4 6 3 11 L21 11 C20 6 16 3 12 3 Z"/>
+              <path d="M3 11 L6 21 H18 L21 11"/>
+            </svg>
+          </div>
+
+          <div class="cat-card">
+            <div>
+              <div class="cat-num">04.</div>
+              <h3 class="cat-name">Garden Umbrellas</h3>
+              <div class="cat-deva">गार्डन छाते</div>
+              <p class="cat-desc">Generous-sized canopies for cafes, terraces, gardens and patios. Shade in the summer, shelter in the rains.</p>
+            </div>
+            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M12 2 C5 2 1 8 1 12 L12 12 L23 12 C23 8 19 2 12 2 Z"/>
+              <path d="M12 12 V21"/>
+              <path d="M9 21 H15"/>
+            </svg>
+          </div>
+
+          <div class="cat-card">
+            <div>
+              <div class="cat-num">05.</div>
+              <h3 class="cat-name">Corporate Umbrellas</h3>
+              <div class="cat-deva">कॉर्पोरेट छाते</div>
+              <p class="cat-desc">Branded umbrellas for offices, gifting, and corporate events &mdash; your name, our craft, monsoon-ready.</p>
+            </div>
+            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+              <path d="M12 2 C7 2 3 6 3 10 H21 C21 6 17 2 12 2 Z"/>
+              <path d="M12 10 V14.5"/>
+              <rect x="7" y="14.5" width="10" height="6.5" rx="0.5"/>
+              <path d="M10 14.5 V13.5 H14 V14.5"/>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured-products" id="featured-products">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-num">№ 02</div>
+          <div>
+            <span class="section-kicker">From the Catalogue</span>
+            <h2 class="section-title">
+              <a href="products.html" class="title-link">Featured <span class="ital">products.</span><span class="title-arrow" aria-hidden="true">&rarr;</span></a>
+            </h2>
+          </div>
+        </div>
+
+        <div class="carousel-wrap reveal d1">
+          <button class="carousel-btn prev" type="button" aria-label="Previous product">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M15 6 L9 12 L15 18"/>
+            </svg>
+          </button>
+
+          <div class="carousel-viewport">
+            <div class="carousel-track" id="featured-track">
+
+              <a href="product.html?id=26-X-12-BLACK-SILVER-SANDOO-JALI-IRON-HANDLE-TV" class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777976870/IMG_20210916_014010_tiy0qp.jpg" alt="26 X 12 TAIWAN BLACK SILVER SANDOO JALI IRON HANDLE" loading="lazy" />
+                </div>
+                <div class="featured-card-meta">
+                  <span class="featured-card-chip">T.V. Brand</span>
+                  <span>Umbrellas</span>
+                </div>
+                <h3 class="featured-card-name">26 X 12 Taiwan Black Silver Sandoo Jali Iron Handle</h3>
+                <p class="featured-card-desc">26-inch canopy, 12-rib frame &mdash; black-silver finish, classic iron handle.</p>
+                <div class="featured-card-cta">
+                  <span>View &amp; Enquire</span>
+                  <span class="featured-card-cta-arrow">&rarr;</span>
+                </div>
+              </a>
+
+              <a href="product.html?id=26-X-12-BLACK-SILVER-PIPING-SANDOO-JALI-IRON-HANDLE-TV" class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777979164/IMG_20210916_003642_pbptr9.jpg" alt="26 X 12 TAIWAN BLACK SILVER PIPING SANDOO JALI IRON HANDLE" loading="lazy" />
+                </div>
+                <div class="featured-card-meta">
+                  <span class="featured-card-chip">T.V. Brand</span>
+                  <span>Umbrellas</span>
+                </div>
+                <h3 class="featured-card-name">26 X 12 Taiwan Black Silver Piping Sandoo Jali Iron Handle</h3>
+                <p class="featured-card-desc">Piping detail with Sandoo Jali on a 26-inch, 12-rib build &mdash; black-silver.</p>
+                <div class="featured-card-cta">
+                  <span>View &amp; Enquire</span>
+                  <span class="featured-card-cta-arrow">&rarr;</span>
+                </div>
+              </a>
+
+              <a href="product.html?id=26-X-12-MILITARY-SATIN-BLACK-SANDOO-JALI-IRON-HANDLE-TV" class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777979339/IMG_20210916_020119_dvheoe.jpg" alt="26 X 12 TAIWAN MILITARY SATIN BLACK SANDOO JALI IRON HANDLE" loading="lazy" />
+                </div>
+                <div class="featured-card-meta">
+                  <span class="featured-card-chip">T.V. Brand</span>
+                  <span>Umbrellas</span>
+                </div>
+                <h3 class="featured-card-name">26 X 12 Taiwan Military Satin Black Sandoo Jali Iron Handle</h3>
+                <p class="featured-card-desc">Military satin black on a 26-inch, 12-rib frame &mdash; quiet, considered.</p>
+                <div class="featured-card-cta">
+                  <span>View &amp; Enquire</span>
+                  <span class="featured-card-cta-arrow">&rarr;</span>
+                </div>
+              </a>
+
+              <a href="product.html?id=21.5-X-8-3-FOLD-PIPING-SANDOO-JALI-TV" class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777970679/IMG_20220529_191413_trrkfl.jpg" alt="21.5 X 8 TAIWAN BLACK SILVER PIPING SANDOO JALI 3 FOLD" loading="lazy" />
+                </div>
+                <div class="featured-card-meta">
+                  <span class="featured-card-chip">T.V. Brand</span>
+                  <span>Umbrellas</span>
+                </div>
+                <h3 class="featured-card-name">21.5 X 8 Taiwan Black Silver Piping Sandoo Jali 3 Fold</h3>
+                <p class="featured-card-desc">Compact 3-fold travel piece &mdash; piping, Sandoo Jali, in black-silver.</p>
+                <div class="featured-card-cta">
+                  <span>View &amp; Enquire</span>
+                  <span class="featured-card-cta-arrow">&rarr;</span>
+                </div>
+              </a>
+
+              <a href="product.html?id=21.5-X-8-3-FOLD-AUTO-MONO-TV" class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777971058/IMG_20220529_194313_nckh5n.jpg" alt="21.5 X 8 TAIWAN MONO SILVER 3 FOLD AUTO" loading="lazy" />
+                </div>
+                <div class="featured-card-meta">
+                  <span class="featured-card-chip">T.V. Brand</span>
+                  <span>Umbrellas</span>
+                </div>
+                <h3 class="featured-card-name">21.5 X 8 Taiwan Mono Silver 3 Fold Auto</h3>
+                <p class="featured-card-desc">3-fold auto-open, 21.5-inch, 8-rib &mdash; mono silver finish, everyday-carry.</p>
+                <div class="featured-card-cta">
+                  <span>View &amp; Enquire</span>
+                  <span class="featured-card-cta-arrow">&rarr;</span>
+                </div>
+              </a>
+
+              <a href="product.html?id=26-X-12-SATIN-PRINT-SANDOO-JALI-IRON-HANDLE-TV" class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777979443/IMG_20220529_185857_zdukgs.jpg" alt="26 X 12 TAIWAN SATIN PRINT SANDOO JALI IRON HANDLE" loading="lazy" />
+                </div>
+                <div class="featured-card-meta">
+                  <span class="featured-card-chip">T.V. Brand</span>
+                  <span>Umbrellas</span>
+                </div>
+                <h3 class="featured-card-name">26 X 12 Taiwan Satin Print Sandoo Jali Iron Handle</h3>
+                <p class="featured-card-desc">Satin print canopy on a 26-inch, 12-rib build &mdash; with iron handle.</p>
+                <div class="featured-card-cta">
+                  <span>View &amp; Enquire</span>
+                  <span class="featured-card-cta-arrow">&rarr;</span>
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+          <button class="carousel-btn next" type="button" aria-label="Next product">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 6 L15 12 L9 18"/>
+            </svg>
+          </button>
+
+          <div class="carousel-dots" id="featured-dots" role="tablist" aria-label="Product carousel"></div>
+
+          <div class="carousel-foot">
+            <a href="products.html" class="carousel-all-link">View all products &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="brands">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-num">№ 03</div>
+          <div>
+            <span class="section-kicker">Our Brands</span>
+            <h2 class="section-title">Three brands. <span class="ital">One House.</span></h2>
+          </div>
+        </div>
+
+        <p class="brands-intro reveal d1">
+          Each brand was built for a different buyer, a different shelf, a different conversation. They share a workshop and a standard. Pick the one that fits your need.
+        </p>
+
+        <article class="brand-block bsc reveal">
+          <div class="brand-art">
+            <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823914/BSC_Logo.png" alt="BSC Umbrellas — Bhaiya Sahab Chatriwala" width="1080" height="1080" loading="lazy" />
+          </div>
+          <div class="brand-content">
+            <div class="brand-eyebrow">&#9670; Premium &middot; Direct to Consumer</div>
+            <h3 class="brand-name">BSC <em>Umbrellas</em></h3>
+            <div class="brand-deva">भैय्या साहब छत्रीवाला</div>
+            <p class="brand-tagline">The premium consumer line.</p>
+            <p class="brand-desc">
+              Our flagship consumer brand. Refined materials, considered design, and a finish that earns its price tag. Built for buyers who want their umbrella to feel as good as it works.
+            </p>
+            <div class="brand-meta">
+              <div><strong>Premium</strong><span>Tier</span></div>
+              <div><strong>D2C</strong><span>Channel</span></div>
+              <div><strong>Umbrellas</strong><span>Range</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="brand-block tv reverse reveal">
+          <div class="brand-content">
+            <div class="brand-eyebrow">&#9670; Trade &middot; Business to Business</div>
+            <h3 class="brand-name">T.V. <em>Umbrellas</em></h3>
+            <p class="brand-tagline">हम सिर्फ छतरी नहीं बेचते &mdash; सुरक्षा भी देते हैं।</p>
+            <p class="brand-desc">
+              A trusted name on the trade side. T.V. Umbrellas is built for distributors, retailers, and bulk buyers who need consistency, scale, and a brand customers already recognise.
+            </p>
+            <div class="brand-meta">
+              <div><strong>Wholesale</strong><span>Model</span></div>
+              <div><strong>B2B</strong><span>Channel</span></div>
+              <div><strong>Umbrellas</strong><span>Range</span></div>
+            </div>
+          </div>
+          <div class="brand-art">
+            <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823913/TV_Brand_Logo.png" alt="T.V. Umbrellas" width="1080" height="1080" loading="lazy" />
+          </div>
+        </article>
+
+        <article class="brand-block tank reveal">
+          <div class="brand-art">
+            <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823914/Tank_Chhap_Logo.png" alt="Tank Chhap" width="1080" height="1080" loading="lazy" />
+          </div>
+          <div class="brand-content">
+            <div class="brand-eyebrow">&#9670; Trade &middot; Full Rain Range</div>
+            <h3 class="brand-name">Tank <em>Chhap</em></h3>
+            <div class="brand-deva">टैंक छाप</div>
+            <p class="brand-tagline">Tough as the name. Built for the long monsoon.</p>
+            <p class="brand-desc">
+              Our full rainwear brand for the trade. Where T.V. focuses on umbrellas, Tank Chhap goes wider &mdash; umbrellas and raincoats cloth, ponchos all under one rugged identity. The one-stop rain answer for B2B buyers.
+            </p>
+            <div class="brand-meta">
+              <div><strong>Wholesale</strong><span>Model</span></div>
+              <div><strong>B2B</strong><span>Channel</span></div>
+              <div><strong>Full Range</strong><span>Umbrellas, Raincoats, Ponchos</span></div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section heritage" id="heritage">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-num">№ 04</div>
+          <div>
+            <span class="section-kicker">Heritage</span>
+            <h2 class="section-title">Seventy-six monsoons <span class="ital">and counting.</span></h2>
+          </div>
+        </div>
+
+        <div class="heritage-grid">
+          <div class="heritage-year reveal">
+            19<span class="ital">49</span>
+            <div class="heritage-year-label">The year we began</div>
+          </div>
+          <div class="heritage-copy reveal d1">
+            <h3>A craft passed down across <em>three generations.</em></h3>
+            <p>
+              Ratlam, 1949. A small workshop. A simple promise: when the sky opens, the umbrella holds. Three quarters of a century later, the workshop has grown, the catalogue has widened, the family has built three distinct brands, and the doors are open in Indore and Mumbai &mdash; but the promise is the same one we started with.
+            </p>
+            <p>
+              We make rain essentials. We make them well. We make them in India, for India.
+            </p>
+            <div class="heritage-hindi">&mdash; हर मौसम में, आपके साथ।</div>
+          </div>
+        </div>
+
+        <!-- Lineage timeline -->
+        <div class="timeline-block reveal">
+          <div class="tl-overline">№ 04 &mdash; A Lineage of Rainwear</div>
+          <h3 class="tl-title">From <em>1949</em> to today.</h3>
+
+          <div class="tl-track" aria-hidden="true">
+            <div class="tl-node n1"></div>
+            <div class="tl-node n2"></div>
+            <div class="tl-node n3"></div>
+          </div>
+
+          <div class="tl-cards">
+            <div class="tl-card">
+              <div class="tl-num">1949</div>
+              <div class="tl-label">The Beginning</div>
+              <div class="tl-deva">आरंभ</div>
+              <p class="tl-body">Our family begins making umbrellas in Ratlam &mdash; one craft, one canopy at a time.</p>
+            </div>
+            <div class="tl-card">
+              <div class="tl-num">75+</div>
+              <div class="tl-label">Three Generations</div>
+              <div class="tl-deva">तीन पीढ़ियाँ</div>
+              <p class="tl-body">Three quarters of a century later, the same family standards run through every brand we put out.</p>
+            </div>
+            <div class="tl-card">
+              <div class="tl-num">Today</div>
+              <div class="tl-label">Three Brands, One House</div>
+              <div class="tl-deva">तीन ब्रांड, एक घर</div>
+              <p class="tl-body">BSC, T.V. and Tank Chhap &mdash; built for the premium buyer, the trade shelf, and the long monsoon respectively.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-num">№ 05</div>
+          <div>
+            <span class="section-kicker">Get in Touch</span>
+            <h2 class="section-title">One door. <span class="ital">All three brands.</span></h2>
+          </div>
+        </div>
+
+        <p class="contact-lede reveal d1">
+          Whether you're a retailer, a distributor, or simply asking after a single piece &mdash; we're a phone call, a message, or an email away. All enquiries reach the same desk.
+        </p>
+
+        <div class="contact-grid reveal d2">
+          <a href="tel:+919425103988" class="contact-card">
+            <div class="contact-label">Call</div>
+            <div class="contact-value">+91 94251 03988</div>
+            <div class="contact-sub">Mon&ndash;Sat &middot; 10:00 to 19:00 IST</div>
+          </a>
+          <a href="https://wa.me/919425103988" class="contact-card" target="_blank" rel="noopener">
+            <div class="contact-label">WhatsApp</div>
+            <div class="contact-value">+91 94251 03988</div>
+            <div class="contact-sub">Catalog &middot; Quotes &middot; Orders</div>
+          </a>
+          <a href="mailto:hello@bscumbrellas.com" class="contact-card">
+            <div class="contact-label">Email</div>
+            <div class="contact-value">hello@bscumbrellas.com</div>
+            <div class="contact-sub">For trade &amp; general enquiries</div>
+          </a>
+        </div>
+
+        <div class="contact-locations reveal d3">
+          <div class="loc-card">
+            <div class="loc-label">Indore Office</div>
+            <div class="loc-place">83, Ranipura Main Road,<br />Ranipura, Siyaganj,<br />Indore, Madhya Pradesh 452007</div>
+            <div class="loc-deva">इंदौर कार्यालय</div>
+          </div>
+          <div class="loc-card">
+            <div class="loc-label">Mumbai Office</div>
+            <div class="loc-place">398-E, Kolbhat Lane,<br />Kalbadevi,<br />Mumbai, Maharashtra 400002</div>
+            <div class="loc-deva">मुंबई कार्यालय</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bottom">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-mark">BSC <em>Umbrellas</em></div>
+          <div class="footer-deva">भैय्या साहब छत्रीवाला</div>
+          <div class="footer-tagline">Rain Essentials<br />Trusted Since 1949</div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#brands">Brands</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="#heritage">Heritage</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Reach Us</h4>
+          <ul class="footer-list">
+            <li>
+              <a href="tel:+919425103988">+91 94251 03988</a>
+              <span class="small">Mon&ndash;Sat &middot; 10:00 to 19:00 IST</span>
+            </li>
+            <li>
+              <a href="https://wa.me/919425103988" target="_blank" rel="noopener">WhatsApp</a>
+              <span class="small">Catalog &middot; Quotes &middot; Orders</span>
+            </li>
+            <li>
+              <a href="mailto:hello@bscumbrellas.com">hello@bscumbrellas.com</a>
+              <span class="small">Trade &amp; general enquiries</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Indore Office</h4>
+          <address class="footer-address">
+            83, Ranipura Main Road,<br />
+            Ranipura, Siyaganj,<br />
+            Indore, Madhya Pradesh<br />
+            452007 &middot; India
+            <span class="footer-address-deva">इंदौर कार्यालय</span>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 BSC Umbrellas &middot; All rights reserved</div>
+        <div class="brands-list">
+          <span>BSC Umbrellas</span>
+          <span class="dot">&middot;</span>
+          <span>T.V. Umbrellas</span>
+          <span class="dot">&middot;</span>
+          <span>Tank Chhap</span>
+        </div>
+        <div>Indore &middot; Mumbai &middot; India</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+    reveals.forEach(r => io.observe(r));
+
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.hero .reveal').forEach(r => r.classList.add('in'));
+    });
+
+    /* ============ FEATURED PRODUCTS CAROUSEL ============ */
+    (function initFeaturedCarousel() {
+      const track = document.getElementById('featured-track');
+      const wrap  = document.querySelector('.featured-products .carousel-wrap');
+      const prevBtn = document.querySelector('.featured-products .carousel-btn.prev');
+      const nextBtn = document.querySelector('.featured-products .carousel-btn.next');
+      const dotsEl = document.getElementById('featured-dots');
+      if (!track || !wrap) return;
+
+      const originalCards = Array.from(track.children);
+      const total = originalCards.length;
+      if (total === 0) return;
+
+      let visible = computeVisible();
+      let index = visible;          // pointer into the live track (which has clones at start)
+      let isAnimating = false;
+      let autoplayId = null;
+      const AUTOPLAY_MS = 4500;
+
+      function computeVisible() {
+        const w = window.innerWidth;
+        if (w <= 720)  return 1;
+        if (w <= 1080) return 2;
+        return 3;
+      }
+
+      function buildClones() {
+        // Remove any prior clones
+        track.querySelectorAll('.is-clone').forEach(c => c.remove());
+
+        // Prepend last `visible` items as clones (so prev wraps cleanly)
+        const tail = originalCards.slice(-visible);
+        // insert in reverse order so original order is preserved at the start
+        for (let i = tail.length - 1; i >= 0; i--) {
+          const c = tail[i].cloneNode(true);
+          c.classList.add('is-clone');
+          c.setAttribute('aria-hidden', 'true');
+          c.setAttribute('tabindex', '-1');
+          track.insertBefore(c, track.firstChild);
+        }
+        // Append first `visible` items as clones (so next wraps cleanly)
+        originalCards.slice(0, visible).forEach(el => {
+          const c = el.cloneNode(true);
+          c.classList.add('is-clone');
+          c.setAttribute('aria-hidden', 'true');
+          c.setAttribute('tabindex', '-1');
+          track.appendChild(c);
+        });
+      }
+
+      function getStep() {
+        const firstCard = track.children[0];
+        if (!firstCard) return 0;
+        const rect = firstCard.getBoundingClientRect();
+        const styles = getComputedStyle(track);
+        const gap = parseFloat(styles.columnGap || styles.gap || 0) || 0;
+        return rect.width + gap;
+      }
+
+      function applyTransform(animate) {
+        if (!animate) {
+          track.classList.add('no-transition');
+        }
+        track.style.transform = `translate3d(${-index * getStep()}px, 0, 0)`;
+        if (!animate) {
+          // Force reflow then re-enable transition
+          void track.offsetHeight;
+          track.classList.remove('no-transition');
+        }
+      }
+
+      function realIndex() {
+        // Map track index -> original index in 0..total-1
+        return ((index - visible) % total + total) % total;
+      }
+
+      function buildDots() {
+        if (!dotsEl) return;
+        dotsEl.innerHTML = '';
+        for (let i = 0; i < total; i++) {
+          const b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+          b.setAttribute('role', 'tab');
+          b.setAttribute('aria-label', `Go to product ${i + 1}`);
+          b.addEventListener('click', () => {
+            if (isAnimating) return;
+            isAnimating = true;
+            index = visible + i;
+            applyTransform(true);
+            restartAutoplay();
+          });
+          dotsEl.appendChild(b);
+        }
+      }
+
+      function updateDots() {
+        if (!dotsEl) return;
+        const r = realIndex();
+        dotsEl.querySelectorAll('.carousel-dot').forEach((d, i) => {
+          d.classList.toggle('active', i === r);
+        });
+      }
+
+      function next() {
+        if (isAnimating) return;
+        isAnimating = true;
+        index++;
+        applyTransform(true);
+      }
+
+      function prev() {
+        if (isAnimating) return;
+        isAnimating = true;
+        index--;
+        applyTransform(true);
+      }
+
+      track.addEventListener('transitionend', (e) => {
+        if (e.propertyName !== 'transform') return;
+        // Wrap silently if we've animated into clone territory
+        if (index >= total + visible) {
+          index = visible + (index - (total + visible));
+          applyTransform(false);
+        } else if (index < visible) {
+          index = total + index;
+          applyTransform(false);
+        }
+        isAnimating = false;
+        updateDots();
+      });
+
+      function startAutoplay() {
+        if (autoplayId) return;
+        autoplayId = setInterval(next, AUTOPLAY_MS);
+      }
+      function stopAutoplay() {
+        if (autoplayId) {
+          clearInterval(autoplayId);
+          autoplayId = null;
+        }
+      }
+      function restartAutoplay() {
+        stopAutoplay();
+        startAutoplay();
+      }
+
+      // Buttons
+      if (prevBtn) prevBtn.addEventListener('click', () => { prev(); restartAutoplay(); });
+      if (nextBtn) nextBtn.addEventListener('click', () => { next(); restartAutoplay(); });
+
+      // Pause on hover (desktop)
+      wrap.addEventListener('mouseenter', stopAutoplay);
+      wrap.addEventListener('mouseleave', startAutoplay);
+
+      // Pause when not visible
+      if ('IntersectionObserver' in window) {
+        const obs = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) startAutoplay();
+            else stopAutoplay();
+          });
+        }, { threshold: 0.2 });
+        obs.observe(wrap);
+      }
+
+      // Pause on tab hidden, resume on visible
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) stopAutoplay();
+        else startAutoplay();
+      });
+
+      // Touch swipe support
+      let touchStartX = 0, touchDeltaX = 0, touching = false;
+      track.addEventListener('touchstart', (e) => {
+        if (!e.touches || !e.touches[0]) return;
+        touchStartX = e.touches[0].clientX;
+        touchDeltaX = 0;
+        touching = true;
+        stopAutoplay();
+      }, { passive: true });
+      track.addEventListener('touchmove', (e) => {
+        if (!touching || !e.touches || !e.touches[0]) return;
+        touchDeltaX = e.touches[0].clientX - touchStartX;
+      }, { passive: true });
+      track.addEventListener('touchend', () => {
+        if (!touching) return;
+        touching = false;
+        const threshold = 50;
+        if (touchDeltaX <= -threshold) next();
+        else if (touchDeltaX >= threshold) prev();
+        startAutoplay();
+      });
+
+      // Resize: rebuild clones if visible count changed
+      let resizeT;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeT);
+        resizeT = setTimeout(() => {
+          const newVisible = computeVisible();
+          const realIdx = realIndex();
+          if (newVisible !== visible) {
+            visible = newVisible;
+            buildClones();
+            index = visible + realIdx;
+          }
+          applyTransform(false);
+        }, 150);
+      });
+
+      // Init
+      buildClones();
+      buildDots();
+      // Wait for layout then position
+      requestAnimationFrame(() => {
+        applyTransform(false);
+        updateDots();
+        startAutoplay();
+      });
+    })();
+  </script>
+
+</body>
+</html>
