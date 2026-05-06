@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BSC Umbrellas — Rain Essentials Since 1949</title>
-  <meta name="description" content="A heritage rain-essentials house from Indore. Three brands — BSC Umbrellas, T.V. Umbrellas, and Tank Chhap — covering umbrellas, raincoats, ponchos, and garden umbrellas since 1949." />
+  <title>Tank Chhap — Heritage Umbrellas &amp; Raincoat Cloth from Indore Since 1949</title>
+  <meta name="description" content="Tank Chhap is the long-monsoon rain brand from the BSC Umbrellas house — umbrellas and raincoat cloth manufactured in-house in Indore since 1949. Tank Chhap umbrellas &amp; raincoat cloth by BSC Umbrellas, run by Pinkesh Lodha contact at +91 9425103988." />
+  <meta name="author" content="Tank Chhap by BSC Umbrellas" />
+
+  <link rel="canonical" href="https://tankchhap.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tank Chhap — Heritage Umbrellas &amp; Raincoat Cloth from Indore Since 1949" />
+  <meta property="og:description" content="Tank Chhap umbrellas &amp; raincoat cloth by BSC Umbrellas, run by Pinkesh Lodha contact at +91 9425103988." />
+  <meta property="og:url" content="https://tankchhap.com/" />
+  <meta property="og:site_name" content="Tank Chhap" />
+  <meta property="og:image" content="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823914/Tank_Chhap_Logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tank Chhap — Heritage Umbrellas &amp; Raincoat Cloth from Indore Since 1949" />
+  <meta name="twitter:description" content="Tank Chhap umbrellas &amp; raincoat cloth by BSC Umbrellas, run by Pinkesh Lodha contact at +91 9425103988." />
+  <meta name="twitter:image" content="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823914/Tank_Chhap_Logo.png" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#F4B41A" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -463,12 +481,14 @@
       padding: 44px 28px 32px;
       border-right: 1px solid var(--rule);
       position: relative;
-      cursor: default;
+      cursor: pointer;
       transition: background 0.4s ease;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       min-height: 280px;
+      color: inherit;
+      text-decoration: none;
     }
     .cat-card:last-child { border-right: none; }
     @media (max-width: 1080px) {
@@ -665,6 +685,26 @@
       letter-spacing: 0.18em;
       font-size: 0.7rem;
     }
+
+    .brand-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 24px;
+      padding: 4px 0;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink);
+      border-bottom: 1px solid currentColor;
+      transition: gap 0.3s ease, color 0.2s ease;
+    }
+    .brand-link:hover { gap: 16px; }
+    .brand-block.bsc .brand-link { color: var(--bsc-amber-deep); }
+    .brand-block.tv .brand-link { color: var(--tv-red); border-bottom-color: var(--tv-red); }
+    .brand-block.tank .brand-link { color: var(--ink); }
+    .brand-link .arrow { font-family: var(--serif); font-size: 1rem; line-height: 1; }
 
     .heritage {
       background: var(--paper-light);
@@ -1514,7 +1554,7 @@
 
         <div class="categories-grid reveal d1">
 
-          <div class="cat-card">
+          <a class="cat-card" href="products.html?cat=Umbrellas">
             <div>
               <div class="cat-num">01.</div>
               <h3 class="cat-name">Umbrellas</h3>
@@ -1525,9 +1565,9 @@
               <path d="M12 2 C6 2 2 7 2 11 L12 11 L22 11 C22 7 18 2 12 2 Z"/>
               <path d="M12 11 V20 C12 21.1 12.9 22 14 22 C15.1 22 16 21.1 16 20"/>
             </svg>
-          </div>
+          </a>
 
-          <div class="cat-card">
+          <a class="cat-card" href="products.html?cat=Raincoats">
             <div>
               <div class="cat-num">02.</div>
               <h3 class="cat-name">Raincoats</h3>
@@ -1538,9 +1578,9 @@
               <path d="M6 6 L8 3 H16 L18 6 L21 9 V21 H3 V9 Z"/>
               <path d="M12 3 V21"/>
             </svg>
-          </div>
+          </a>
 
-          <div class="cat-card">
+          <a class="cat-card" href="products.html?cat=Ponchos">
             <div>
               <div class="cat-num">03.</div>
               <h3 class="cat-name">Ponchos</h3>
@@ -1551,9 +1591,9 @@
               <path d="M12 3 C8 3 4 6 3 11 L21 11 C20 6 16 3 12 3 Z"/>
               <path d="M3 11 L6 21 H18 L21 11"/>
             </svg>
-          </div>
+          </a>
 
-          <div class="cat-card">
+          <a class="cat-card" href="products.html?cat=Garden%20Umbrellas">
             <div>
               <div class="cat-num">04.</div>
               <h3 class="cat-name">Garden Umbrellas</h3>
@@ -1565,9 +1605,9 @@
               <path d="M12 12 V21"/>
               <path d="M9 21 H15"/>
             </svg>
-          </div>
+          </a>
 
-          <div class="cat-card">
+          <a class="cat-card" href="products.html?cat=Corporate%20Umbrellas">
             <div>
               <div class="cat-num">05.</div>
               <h3 class="cat-name">Corporate Umbrellas</h3>
@@ -1580,7 +1620,7 @@
               <rect x="7" y="14.5" width="10" height="6.5" rx="0.5"/>
               <path d="M10 14.5 V13.5 H14 V14.5"/>
             </svg>
-          </div>
+          </a>
 
         </div>
       </div>
@@ -1753,6 +1793,10 @@
               <div><strong>D2C</strong><span>Channel</span></div>
               <div><strong>Umbrellas</strong><span>Range</span></div>
             </div>
+            <a href="bsc-umbrellas.html" class="brand-link">
+              <span>Read the BSC Umbrellas story</span>
+              <span class="arrow">&rarr;</span>
+            </a>
           </div>
         </article>
 
@@ -1769,6 +1813,10 @@
               <div><strong>B2B</strong><span>Channel</span></div>
               <div><strong>Umbrellas</strong><span>Range</span></div>
             </div>
+            <a href="tv-umbrellas.html" class="brand-link">
+              <span>Read the T.V. Umbrellas story</span>
+              <span class="arrow">&rarr;</span>
+            </a>
           </div>
           <div class="brand-art">
             <img src="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823913/TV_Brand_Logo.png" alt="T.V. Umbrellas" width="1080" height="1080" loading="lazy" />
@@ -1791,6 +1839,16 @@
               <div><strong>Wholesale</strong><span>Model</span></div>
               <div><strong>B2B</strong><span>Channel</span></div>
               <div><strong>Full Range</strong><span>Umbrellas, Raincoats, Ponchos</span></div>
+            </div>
+            <div class="brand-links" style="display:flex; gap:24px; flex-wrap:wrap;">
+              <a href="tank-chhap.html" class="brand-link">
+                <span>Read the Tank Chhap story</span>
+                <span class="arrow">&rarr;</span>
+              </a>
+              <a href="tank-umbrellas.html" class="brand-link">
+                <span>Tank Chhap Umbrella &amp; Raincoat Cloth guide</span>
+                <span class="arrow">&rarr;</span>
+              </a>
             </div>
           </div>
         </article>

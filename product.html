@@ -3,8 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Product &middot; BSC Umbrellas</title>
-  <meta name="description" content="Product details and enquiry from BSC Umbrellas." />
+  <title>Product &middot; Tank Chhap</title>
+  <meta name="description" content="A single product from the Tank Chhap catalogue — heritage rain essentials made in India since 1949. Tank Chhap umbrellas &amp; raincoat cloth by BSC Umbrellas, run by Pinkesh Lodha contact at +91 9425103988." />
+  <meta name="author" content="Tank Chhap by BSC Umbrellas" />
+
+  <link rel="canonical" id="canonical-link" href="https://tankchhap.com/product.html" />
+
+  <meta property="og:type" content="product" />
+  <meta property="og:title" content="Product · Tank Chhap" />
+  <meta property="og:description" content="Tank Chhap umbrellas &amp; raincoat cloth by BSC Umbrellas, run by Pinkesh Lodha contact at +91 9425103988." />
+  <meta property="og:url" content="https://tankchhap.com/product.html" />
+  <meta property="og:site_name" content="Tank Chhap" />
+  <meta property="og:image" content="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823914/Tank_Chhap_Logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Product · Tank Chhap" />
+  <meta name="twitter:description" content="Tank Chhap umbrellas &amp; raincoat cloth by BSC Umbrellas, run by Pinkesh Lodha contact at +91 9425103988." />
+  <meta name="twitter:image" content="https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777823914/Tank_Chhap_Logo.png" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#F4B41A" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -465,7 +483,12 @@
     }
 
     function renderProduct(p) {
-      document.title = `${p.name} · ${p.brand} · BSC Umbrellas`;
+      document.title = `${p.name} · ${p.brand} · Tank Chhap`;
+      const canonicalUrl = `https://tankchhap.com/product.html?id=${encodeURIComponent(p.id)}`;
+      const canonicalEl = document.getElementById('canonical-link');
+      if (canonicalEl) canonicalEl.href = canonicalUrl;
+      const ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) ogUrl.setAttribute('content', canonicalUrl);
 
       const brandClass = BRAND_CLASSES[p.brand] || 'bsc';
       const allImages = [p.image, ...(p.images || [])].filter(Boolean);
@@ -549,7 +572,7 @@
     }
 
     function renderNotFound(msg) {
-      document.title = 'Product Not Found · BSC Umbrellas';
+      document.title = 'Product Not Found · Tank Chhap';
       document.getElementById('content').innerHTML = `
         <div class="not-found">
           <h1>Product not found</h1>
