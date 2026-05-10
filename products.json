@@ -121,7 +121,7 @@
     },
     {
       "id": "21.5-X-8-3-FOLD-AUTO-PRINT-TV",
-      "name": "21.5 X 8 TAIWAN SATIN PRINT 3 FOLD AUTO",
+      "name": "21.5 X 8 TAIWAN PRINT 3 FOLD AUTO",
       "brand": "T.V. Brand",
       "category": "Umbrellas",
       "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777971510/IMG_20220529_192748_haacus.jpg",
@@ -131,13 +131,13 @@
         "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777971511/IMG_20220529_192955_ddi9wm.jpg",
         "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1777971509/IMG_20220529_192933_o1qvsh.jpg"
       ],
-      "short_desc": "21.5 X 8 TAIWAN SATIN PRINT 3 FOLD AUTO",
+      "short_desc": "21.5 X 8 TAIWAN PRINT 3 FOLD AUTO",
       "long_desc": "This is a Taiwan 999, 3-fold automatic umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a satin print.",
       "size": "21.5 Inch",
       "material": "PRINT SILVER"
     },
     {
-      "id": "21.5-X-8-3-FOLD-AUTO-PRINT-TV-2",
+      "id": "21.5-X-8-3-FOLD-AUTO-PRINT-TV-1",
       "name": "21.5 X 8 TAIWAN SATIN PRINT 3 FOLD AUTO",
       "brand": "T.V. Brand",
       "category": "Umbrellas",
@@ -492,6 +492,590 @@
       "long_desc": "This is a Taiwan 999 umbrella featuring Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a satin print color scheme.",
       "size": "26 X 12 Inch",
       "material": "SATIN PRINT"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21-X-8-2-FOLD-AUTO-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21 X 8 TAIWAN BLACK SILVER 2 FOLD AUTO",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778402997/Tank_Umbrellas_11_jrx3cf.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778402995/Tank_Umbrellas_14_aqeivu.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778402994/Tank_Umbrellas_15_mtct33.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403001/Tank_Umbrellas_12_hxgydu.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403020/Tank_Umbrellas_13_hv18oc.png"
+      ],
+      "short_desc": "21 X 8 TAIWAN BLACK SILVER 2 FOLD AUTO",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 2-fold automatic umbrella. It features a 21-inch canopy supported by an 8-rib frame. The design is finished in a black and silver color scheme.",
+      "size": "21 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21-X-8-2-FOLD-AUTO-PRINT-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21 X 8 TAIWAN SATIN PRINT 2 FOLD AUTO",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403137/Tank_Umbrellas_22_mighyb.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403138/Tank_Umbrellas_21_xwxmwr.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403137/Tank_Umbrellas_24_fwagct.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403135/Tank_Umbrellas_23_d1otju.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403137/Tank_Umbrellas_25_qrvuzl.jpg"
+      ],
+      "short_desc": "21 X 8 TAIWAN SATIN PRINT 2 FOLD AUTO",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 2-fold automatic umbrella. It features a 21-inch canopy supported by an 8-rib frame. The design is finished in a satin print.",
+      "size": "21 Inch",
+      "material": "SATIN PRINT"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-AUTO-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN BLACK SILVER 3 FOLD AUTO",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403215/Tank_Umbrellas_33_xfz101.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403207/Tank_Umbrellas_35_k729gr.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403206/Tank_Umbrellas_31_qvgx4i.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403202/Tank_Umbrellas_32_f7q92a.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403198/Tank_Umbrellas_34_ne5bz9.jpg"
+      ],
+      "short_desc": "21.5 X 8 TAIWAN BLACK SILVER 3 FOLD AUTO",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 3-fold automatic umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a black and silver color scheme.",
+      "size": "21.5 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-MANUAL-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN BLACK SILVER 3 FOLD MANUAL",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403315/Tank_Umbrellas_43_xheqsv.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403287/Tank_Umbrellas_45_qlejgr.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403293/Tank_Umbrellas_41_hlcbqd.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403295/Tank_Umbrellas_42_gjltoi.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403287/Tank_Umbrellas_44_nwpbuj.jpg"
+      ],
+      "short_desc": "21.5 X 8 TAIWAN BLACK SILVER 3 FOLD MANUAL",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 3-fold manual umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a black and silver color scheme.",
+      "size": "21.5 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-PIPING-SANDOO-JALI-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN BLACK SILVER PIPING SANDOO JALI 3 FOLD",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403454/Tank_Umbrellas_53_o6c1r7.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403370/Tank_Umbrellas_55_udalcz.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403372/Tank_Umbrellas_52_kmjukz.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403375/Tank_Umbrellas_51_hu8tdd.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403369/Tank_Umbrellas_54_hnqu1z.jpg"
+      ],
+      "short_desc": "21.5 X 8 TAIWAN BLACK SILVER PIPING SANDOO JALI 3 FOLD",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring a piping design and Sandoo Jali. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a black and silver color scheme.",
+      "size": "21.5 Inch",
+      "material": "PIPING BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-AUTO-MONO-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN MONO SILVER 3 FOLD AUTO",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403522/Tank_Umbrellas_62_od90on.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403533/Tank_Umbrellas_65_btjcwo.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403519/Tank_Umbrellas_61_wgfxzu.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403506/Tank_Umbrellas_63_ep8qkj.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403509/Tank_Umbrellas_64_edvnev.jpg"
+      ],
+      "short_desc": "21.5 X 8 TAIWAN MONO SILVER 3 FOLD AUTO",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 3-fold automatic umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a mono color with silver scheme.",
+      "size": "21.5 Inch",
+      "material": "MONO SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-MANUAL-MONO-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN MONO SILVER 3 FOLD MANUAL",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403579/Tank_Umbrellas_72_dtd9le.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403581/Tank_Umbrellas_75_upjtfa.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403590/Tank_Umbrellas_71_achnip.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403625/Tank_Umbrellas_73_abjrf6.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403582/Tank_Umbrellas_74_yonk0a.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN MONO SILVER 3 FOLD MANUAL",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 3-fold manual umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a mono color with silver scheme.",
+      "size": "21.5 Inch",
+      "material": "MONO SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-AUTO-PRINT-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN PRINT 3 FOLD AUTO",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403725/Tank_Umbrellas_83_nkjhng.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403671/Tank_Umbrellas_84_xt81p0.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403662/Tank_Umbrellas_81_fbthmk.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403685/Tank_Umbrellas_82_n8zwoo.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403675/Tank_Umbrellas_85_mspqp0.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN PRINT 3 FOLD AUTO",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 3-fold automatic umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a print.",
+      "size": "21.5 Inch",
+      "material": "PRINT SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-AUTO-PRINT-TV-1",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN SATIN PRINT 3 FOLD AUTO",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403803/Tank_Umbrellas_82_ocdd5u.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403799/Tank_Umbrellas_85_srlpcs.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403799/Tank_Umbrellas_84_izpyji.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403801/Tank_Umbrellas_83_jkpbv3.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403816/Tank_Umbrellas_81_krekgx.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN SATIN PRINT 3 FOLD AUTO",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 3-fold automatic umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a satin print.",
+      "size": "21.5 Inch",
+      "material": "SATIN PRINT"
+    },
+    {
+      "id": "TANK-UMBRELLAS-21.5-X-8-3-FOLD-MANUAL-PRINT-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN SATIN PRINT 3 FOLD MANUAL",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403871/IMG_20210917_014037_lyeifg.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403868/IMG_20210916_232301_klfmkk.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403874/IMG_20210917_013947_jlrvyf.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403871/IMG_20210917_014011_eypltc.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403889/IMG_20210916_232317_hwbbyi.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 21.5 X 8 TAIWAN SATIN PRINT 3 FOLD MANUAL",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth, 3-fold manual umbrella. It features a 21.5-inch canopy supported by an 8-rib frame. The design is finished in a satin print.",
+      "size": "21.5 Inch",
+      "material": "SATIN PRINT"
+    },
+    {
+      "id": "TANK-UMBRELLAS-22-X-8-TUM-TUM-JALI-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN BLACK SILVER TUM TUM JALI",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403927/Tank_Umbrellas_91_lz85gw.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403926/Tank_Umbrellas_94_h3gb61.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403923/Tank_Umbrellas_92_f5ucw4.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403936/Tank_Umbrellas_93_gmphqf.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403933/Tank_Umbrellas_96_eqhlj9.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403925/Tank_Umbrellas_95_nfpv16.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN BLACK SILVER TUM TUM JALI",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring a Tum Tum Jali design. It features a 22-inch canopy supported by an 8-rib frame. The design is finished in a black and silver color scheme.",
+      "size": "22 X 8 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-22-X-8-TUM-TUM-JALI-MILITARY-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN MILITARY SILVER TUM TUM JALI",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778404001/Tank_Umbrellas_103_oofwt0.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403987/Tank_Umbrellas_104_xiotdv.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778404010/Tank_Umbrellas_101_uigeqh.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403990/Tank_Umbrellas_102_pgffic.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778403989/Tank_Umbrellas_106_l1nnzs.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778404002/Tank_Umbrellas_105_kvjapj.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN MILITARY SILVER TUM TUM JALI",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring a Tum Tum Jali design. It features a 22-inch canopy supported by an 8-rib frame. The design is finished in a military silver color scheme.",
+      "size": "22 X 8 Inch",
+      "material": "MILITARY SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-22-X-8-TUM-TUM-JALI-SATIN-PRINT-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN SATIN PRINT TUM TUM JALI",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405227/IMG_20210916_120021_y620yg.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405228/IMG_20210916_120235_xrzc3d.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405227/IMG_20210916_120112_d1mpre.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405226/IMG_20210916_120051_n3teda.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405228/IMG_20210916_120135_mcm7og.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405231/IMG_20210916_120245_pmqwmt.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN SATIN PRINT TUM TUM JALI",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring a Tum Tum Jali design. It features a 22-inch canopy supported by an 8-rib frame. The design is finished in a satin print.",
+      "size": "22 X 8 Inch",
+      "material": "SATIN PRINT"
+    },
+    {
+      "id": "TANK-UMBRELLAS-22-X-8-TUM-TUM-JALI-MONO-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN MONO SILVER TUM TUM JALI",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405011/Tank_Umbrellas_113_fjoftx.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405012/Tank_Umbrellas_114_kmnsf4.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405011/Tank_Umbrellas_112_difylw.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778404999/Tank_Umbrellas_111_ojkkp9.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405014/Tank_Umbrellas_116_y8gbie.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405013/Tank_Umbrellas_115_vkopxa.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 22 X 8 TAIWAN MONO SILVER TUM TUM JALI",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring a Tum Tum Jali design. It features a 22-inch canopy supported by an 8-rib frame. The design is finished in a mono color with silver scheme.",
+      "size": "22 X 8 Inch",
+      "material": "MONO SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-8-ALTA-PALTA-BLACK-SILVER-CHROME-JALI-PATLA-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN ALTA PALTA BLACK & SILVER CHROME JALI PATLA IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405320/Tank_Umbrellas_133_w7uqz7.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405319/Tank_Umbrellas_135_yla413.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405319/Tank_Umbrellas_132_im7opv.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405328/Tank_Umbrellas_131_mduypo.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405317/Tank_Umbrellas_134_v1jgqm.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN ALTA PALTA BLACK & SILVER CHROME JALI PATLA IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring an Alta Palta design with Chrome Jali and a Patla Iron Handle. It features a 26-inch canopy supported by an 8-rib frame. The design is finished in a black & silver color scheme.",
+      "size": "26 X 8 Inch",
+      "material": "ALTA PALTA BLACK & SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-8-ALTA-PALTA-BLACK-SILVER-CHROME-JALI-VIRGIN-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN ALTA PALTA BLACK & SILVER CHROME JALI VIRGIN HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405380/Tank_Umbrellas_144_ncort9.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405389/Tank_Umbrellas_141_fvhyok.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405387/Tank_Umbrellas_143_kpo94z.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405373/Tank_Umbrellas_142_yuodq7.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405374/Tank_Umbrellas_146_z7hh48.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN ALTA PALTA BLACK & SILVER CHROME JALI VIRGIN HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring an Alta Palta design with Chrome Jali and a Virgin Handle. It features a 26-inch canopy supported by an 8-rib frame. The design is finished in a black & silver color scheme.",
+      "size": "26 X 8 Inch",
+      "material": "ALTA PALTA BLACK & SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-8-BLACK-SILVER-BLACK-TUBE-PATLA-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN BLACK SILVER BLACK TUBE PATLA SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405570/Tank_Umbrellas_262_x9o5wv.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405633/Tank_Umbrellas_264_gyntbp.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405629/Tank_Umbrellas_263_clh0lb.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405576/Tank_Umbrellas_261_w50y6t.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405659/Tank_Umbrellas_266_mywowr.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN BLACK SILVER BLACK TUBE PATLA SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring a Black Tube, Patla Sandoo Jali, and an Iron Handle. It features a 26-inch canopy supported by an 8-rib frame. The design is finished in a black silver color scheme.",
+      "size": "26 X 8 Inch",
+      "material": "BLACK SILVER BLACK TUBE"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-8-BLACK-SILVER-CHROME-JALI-VIRGIN-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN BLACK SILVER CHROME JALI VIRGIN HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405774/Tank_Umbrellas_154_uq2ft9.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405783/Tank_Umbrellas_155_bulnfd.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405783/Tank_Umbrellas_152_mu9zwv.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405777/Tank_Umbrellas_151_o0yck1.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405778/Tank_Umbrellas_156_rkabsj.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN BLACK SILVER CHROME JALI VIRGIN HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Chrome Jali and a Virgin Handle. It features a 26-inch canopy supported by an 8-rib frame. The design is finished in a black silver color scheme.",
+      "size": "26 X 8 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-8-BLACK-SILVER-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN BLACK SILVER SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405867/Tank_Umbrellas_162_pl6byz.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405877/Tank_Umbrellas_165_b1vamw.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405869/Tank_Umbrellas_161_gim5ai.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405896/Tank_Umbrellas_164_yafnj5.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778405889/Tank_Umbrellas_163_ckutc4.png"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 8 TAIWAN BLACK SILVER SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by an 8-rib frame. The design is finished in a black silver color scheme.",
+      "size": "26 X 8 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-BLACK-SILVER-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN BLACK SILVER SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406125/Tank_Umbrellas_192_yow0b7.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406156/Tank_Umbrellas_193_f7pdao.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406157/Tank_Umbrellas_195_z9fiqk.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406132/Tank_Umbrellas_191_fy9fz3.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406155/Tank_Umbrellas_194_a3bzbm.png"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN BLACK SILVER SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a black silver color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-BLACK-SILVER-SANDOO-JALI-VIRGIN-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN BLACK SILVER SANDOO JALI VIRGIN HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406231/Tank_Umbrellas_202_bjumqh.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406223/Tank_Umbrellas_204_d28jhs.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406226/Tank_Umbrellas_201_ijjqcw.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406226/Tank_Umbrellas_203_wzh4nk.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406228/Tank_Umbrellas_206_x874fa.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN BLACK SILVER SANDOO JALI VIRGIN HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Sandoo Jali and a Virgin Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a black silver color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-CHECKS-SILVER-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN CHECKS SILVER SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406364/Tank_Umbrellas_213_wvn36f.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406357/Tank_Umbrellas_214_nolts7.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406352/Tank_Umbrellas_211_jsfu9d.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406348/Tank_Umbrellas_212_yfz0k8.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406360/Tank_Umbrellas_216_rvrwzr.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN CHECKS SILVER SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a checks silver color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "CHECKS SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-ALTA-PALTA-BLACK-SILVER-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN ALTA PALTA BLACK & SILVER SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406019/Tank_Umbrellas_174_wreuk9.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406017/Tank_Umbrellas_176_mp1qhu.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406017/Tank_Umbrellas_171_uxjwhi.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406022/Tank_Umbrellas_173_rku5jz.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406015/Tank_Umbrellas_172_ayskdr.png"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN ALTA PALTA BLACK & SILVER SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring an Alta Palta design with Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a black & silver color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "ALTA PALTA BLACK & SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-BLACK-SILVER-PIPING-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X12 TAIWAN BLACK SILVER PIPING SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406456/Tank_Umbrellas_252_cubkth.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406458/Tank_Umbrellas_255_ejlops.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406465/Tank_Umbrellas_253_ngneef.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406463/Tank_Umbrellas_251_ylh3tu.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406459/Tank_Umbrellas_256_gjpiek.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X12 TAIWAN BLACK SILVER PIPING SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring a piping design, Sandoo Jali, and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a black silver color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "PIPING BLACK SILVER"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-ZED-BLACK-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 12 ZED BLACK SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406514/Tank_Umbrellas_241_mmrcwe.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406513/Tank_Umbrellas_242_jvtzz5.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406514/Tank_Umbrellas_243_hhvq7z.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406520/Tank_Umbrellas_246_js5mts.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406517/Tank_Umbrellas_245_bzz5jn.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 12 ZED BLACK SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a Zed Black color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "ZED BLACK"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-MILITARY-SATIN-BLACK-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN MILITARY SATIN BLACK SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406582/Tank_Umbrellas_231_qizdio.png",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406583/Tank_Umbrellas_232_oatibc.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406579/Tank_Umbrellas_234_bcv3dw.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406574/Tank_Umbrellas_233_zrzze9.png",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406578/Tank_Umbrellas_236_gk5xds.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN MILITARY SATIN BLACK SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a military satin black color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "MILITARY SATIN BLACK"
+    },
+    {
+      "id": "TANK-UMBRELLAS-26-X-12-SATIN-PRINT-SANDOO-JALI-IRON-HANDLE-TV",
+      "name": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN SATIN PRINT SANDOO JALI IRON HANDLE",
+      "brand": "Tank Chhap",
+      "category": "Umbrellas",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406628/IMG_20220529_185857_qmvnuh.jpg",
+      "images": [
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406633/IMG_20220529_190101_fpr1uk.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406631/IMG_20220529_190016_kavipm.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406647/IMG_20220529_185939_ys2h6r.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406635/IMG_20220529_191231_uprvyo.jpg",
+        "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778406640/IMG_20220529_190114_apktmc.jpg"
+      ],
+      "short_desc": "TANK CHHAP UMBRELLA CLOTH 26 X 12 TAIWAN SATIN PRINT SANDOO JALI IRON HANDLE",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Umbrella Cloth umbrella featuring Sandoo Jali and an Iron Handle. It features a 26-inch canopy supported by a 12-rib frame. The design is finished in a satin print color scheme.",
+      "size": "26 X 12 Inch",
+      "material": "SATIN PRINT"
+    },
+    {
+      "id": "TANK-KD320-PLATE-CB-27X42-TV-SATIN-PVC",
+      "name": "TANK CHHAP KD 320 RAINCOAT PLATE C+B 27X42 TAIWAN SATIN PRINT PVC",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408611/Tank_Chhap_Raincoat1_nmjniw.png",
+      "images": [],
+      "short_desc": "TANK CHHAP KD 320 RAINCOAT PLATE C+B 27X42 TAIWAN SATIN PRINT PVC",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent PVC build and a high-visibility satin print. It features a 42-inch length (Size 27x42) with a KD 320 Plate C+B design pattern. The construction is finished with a protective hood, snap-button closures, and reinforced utility pockets.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-KAMFO-CARTOON-PURPLE-PVC-RC",
+      "name": "TANK CHHAP KAMFO CARTOON PRINT PURPLE PVC RAINCOAT",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408641/Tank_Chhap_Raincoat2_q9e7xc.png",
+      "images": [],
+      "short_desc": "TANK CHHAP KAMFO CARTOON PRINT PURPLE PVC RAINCOAT",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent purple PVC build and a multicolored cartoon character print. It features a long-line waterproof silhouette with a white drawstring hood and a central snap-button closure. The design is finished with dual front pockets and reinforced stitching for durability.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-KANFOST-STAR-SKYBLUE-SATIN-RC",
+      "name": "TANK CHHAP KANFOST STAR PRINT SKY BLUE SATIN RAINCOAT",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408616/Tank_Chhap_Raincoat3_z0yan8.png",
+      "images": [],
+      "short_desc": "TANK CHHAP KANFOST STAR PRINT SKY BLUE SATIN RAINCOAT",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a sky blue water-resistant fabric with an all-over dark blue star print. It features a full-length silhouette with elasticated cuffs and a white drawstring hood for maximum coverage. The design is finished with a secure snap-button front and dual waist pockets with protective flaps.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-Z-KAMFO-ALPHABET-KD317-ASTIN-B-PVC-RC",
+      "name": "TANK CHHAP Z KAMFO ALPHABET PRINT KD 317 ASTIN FIT B. PVC RAINCOAT",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408609/Tank_Chhap_Raincoat4_s85t1r.png",
+      "images": [],
+      "short_desc": "TANK CHHAP Z KAMFO ALPHABET PRINT KD 317 ASTIN FIT B. PVC RAINCOAT",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent lime-tinted PVC build and a multicolored alphabet and number print. It features a mid-length KD 317 Astin Fit B. silhouette with a drawstring hood and a central snap-button closure. The design is finished with reinforced waterproof seams and wide sleeves for comfortable layering.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-ROYAL-MR106-RS-BLK-XL-XXL-TV-SATIN-SUIT",
+      "name": "TANK CHHAP ROYAL MR 106 R/S BLACK XL-XXL TAIWAN SATIN SUIT",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408616/Tank_Chhap_Raincoat5_wzsa0a.png",
+      "images": [],
+      "short_desc": "TANK CHHAP ROYAL MR 106 R/S BLACK XL-XXL TAIWAN SATIN SUIT",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat suit featuring a matte black water-resistant fabric with a distinctive red horizontal accent line. It features a heavy-duty jacket and trouser set (Size XL-XXL) with a high-neck drawstring hood and a secure snap-button front closure. The design is finished with elasticated waistbands and reinforced seams for professional-grade rain protection.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-KARRON-STAR-KD309-PLATE-CB-27X42-SG-PVC",
+      "name": "TANK CHHAP KARRON STAR PRINT KD 309 PLATE C+B 27X42 SEA GREEN PVC",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408611/Tank_Chhap_Raincoat6_ewxlck.png",
+      "images": [],
+      "short_desc": "TANK CHHAP KARRON STAR PRINT KD 309 PLATE C+B 27X42 SEA GREEN PVC",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent sea green PVC build with an all-over dark green star print. It features a 42-inch length (Size 27x42) with a KD 309 Plate C+B design pattern. The construction is finished with a white drawstring hood, snap-button front, and two front utility pockets with protective flaps.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-KANFOST-FLORAL-WL201-LC-CB-NEON-PVC",
+      "name": "TANK CHHAP KANFOST FLORAL PRINT WL 201 LONG COAT C+B NEON PVC",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408615/Tank_Chhap_Raincoat7_einpcq.png",
+      "images": [],
+      "short_desc": "TANK CHHAP KANFOST FLORAL PRINT WL 201 LONG COAT C+B NEON PVC",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent neon yellow PVC build with an all-over white floral print. It features a full-length WL 201 Long Coat C+B silhouette with elasticated cuffs and a drawstring hood equipped with a transparent visor. The design is finished with a snap-button front and two flap-protected waist pockets for enhanced utility.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-KWFEST-MS417-LC-CB-PINK-PVC-RC",
+      "name": "TANK CHHAP KWFEST MS 417 LONG COAT C+B PINK PVC RAINCOAT",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408615/Tank_Chhap_Raincoat8_ijlce0.png",
+      "images": [],
+      "short_desc": "TANK CHHAP KWFEST MS 417 LONG COAT C+B PINK PVC RAINCOAT",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent soft pink PVC build with a clean, minimal finish. It features a full-length MS 417 Long Coat C+B silhouette with elasticated wrist cuffs and an integrated drawstring hood. The design is finished with a secure snap-button front and two large waist pockets with protective flaps for dry storage.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-KWFEST-MS417-LC-CB-PINK-PVC-RC-1",
+      "name": "TANK CHHAP KWFEST MS 417 LONG COAT C+B PINK PVC RAINCOAT",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408604/Tank_Chhap_Raincoat9_wapwek.png",
+      "images": [],
+      "short_desc": "TANK CHHAP KWFEST MS 417 LONG COAT C+B PINK PVC RAINCOAT",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent soft pink PVC build with a clean, minimal finish. It features a full-length MS 417 Long Coat C+B silhouette with elasticated wrist cuffs and an integrated drawstring hood. The design is finished with a secure snap-button front and two large waist pockets with protective flaps for dry storage.",
+      "size": "",
+      "material": ""
+    },
+    {
+      "id": "TANK-FLORAL-VINE-LAV-PVC-LC",
+      "name": "TANK CHHAP FLORAL VINE PRINT LAVENDER PVC LONG COAT",
+      "brand": "Tank Chhap",
+      "category": "Raincoats",
+      "image": "https://res.cloudinary.com/dgiyxtmkl/image/upload/v1778408619/Tank_Chhap_Raincoat10_yv0knd.png",
+      "images": [],
+      "short_desc": "TANK CHHAP FLORAL VINE PRINT LAVENDER PVC LONG COAT",
+      "long_desc": "This is a Taiwan 999 Tank Chhap Raincoat featuring a translucent lavender-tinted PVC build with an all-over deep purple floral vine print. It features a full-length silhouette with a white drawstring hood and a central black snap-button closure. The design is finished with reinforced waterproof seams and wide sleeves for a comfortable fit over daily wear.",
+      "size": "",
+      "material": ""
     }
   ]
 }
